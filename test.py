@@ -15,7 +15,7 @@ handler = logging.StreamHandler()
 logger.addHandler(handler)
 
 from_address = '12 rue albert camus nozay 91620, France'
-to_address = 'rue des jeunes bois chateaufort 78117, France'#'Rond point du bois des roches chateaufort 78117, France' 
+to_address = "48.74138311701822, 2.0928744250745597"#'rue des jeunes bois chateaufort 78117, France'#'Rond point du bois des roches chateaufort 78117, France' 
 region = 'EU'
 route = WazeRouteCalculator(from_address, to_address, region)
 route.calc_route_info()
@@ -67,9 +67,9 @@ for i,r in enumerate(rs):
 route.calc_all_routes_info()
 
 
-requests.post(
+"""requests.post(
     "https://ntfy.sh/AutomWazeNozaySafran_notification",
     data=route.calc_all_routes_info()
 )
 
-print("Notification envoyée")
+print("Notification envoyée")"""
