@@ -22,7 +22,7 @@ jobs:
 
       - name: Installer les dépendances
         run: |
-          pip install requests folium WazeRouteCalculator
+          pip install requests folium WazeRouteCalculator selenium
 
       - name: Exécuter le script
         run: python main_silencieux.py
