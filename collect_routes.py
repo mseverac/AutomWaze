@@ -12,20 +12,23 @@ logger.setLevel(logging.DEBUG)
 handler = logging.StreamHandler()
 logger.addHandler(handler)
 
-FROM_ADDRESS = '12 rue albert camus nozay 91620, France'
-TO_ADDRESS   = "48.74138311701822, 2.0928744250745597" #'rue des jeunes bois chateaufort 78117, France'#'Rond point du bois des roches chateaufort 78117, France' 
+ADDRESS_A = '12 rue albert camus nozay 91620, France'
+ADDRESS_B = "48.74138311701822, 2.0928744250745597"#'rue des jeunes bois chateaufort 78117, France'#'Rond point du bois des roches chateaufort 78117, France' 
 
 REGION = 'EU'
 
 NTFY_URL = "https://ntfy.sh/AutomWazeNozaySafran_notification"
 
+# Définition des deux trajets : (nom, départ, arrivée)
+TRIPS = [
+    ("aller", ADDRESS_A, ADDRESS_B),
+    ("retour", ADDRESS_B, ADDRESS_A),
+]
 
-def main():
-    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    out_dir = os.path.join("data", timestamp)
-    os.makedirs(out_dir, exist_ok=True)
 
-    route = WazeRouteCalculator(FROM_ADDRESS, TO_ADDRESS, REGION)
+def process_trip(trip_name, from_address, to_address, out_dir):
+    """Calcule toutes les routes pour un trajet donné et sauvegarde les fichiers."""
+    route = WazeRouteCalculator(from_address, to_address, REGION)
     route.calc_route_info()
     route.calc_all_routes_info()
 
@@ -36,13 +39,11 @@ def main():
     for i, r in enumerate(all_routes):
         results = r.get("results", [])
 
-        # Coordonnées de la route
         coords = [
             (seg["path"]["y"], seg["path"]["x"])
             for seg in results
         ]
 
-        # Temps total (minutes) et distance (km)
         total_time_min = sum(seg.get("crossTime", 0) for seg in results) / 60.0
         total_distance_m = sum(seg.get("length", 0) for seg in results)
         total_distance_km = total_distance_m / 1000.0
@@ -58,8 +59,8 @@ def main():
         }
         routes_summary.append(route_data)
 
-        # Sauvegarde JSON brut de la route
-        json_path = os.path.join(out_dir, f"route_{i}.json")
+        # JSON brut de la route
+        json_path = os.path.join(out_dir, f"{trip_name}_route_{i}.json")
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(route_data, f, ensure_ascii=False, indent=2)
 
@@ -67,31 +68,52 @@ def main():
         if coords:
             m = folium.Map(location=coords[0], zoom_start=12)
             folium.PolyLine(coords, color="blue", weight=5).add_to(m)
-            html_file = os.path.join(out_dir, f"route_{i}.html")
+            html_file = os.path.join(out_dir, f"{trip_name}_route_{i}.html")
             m.save(html_file)
 
-    # Résumé global
-    summary_path = os.path.join(out_dir, "summary.json")
+    # Résumé pour ce trajet
+    summary_path = os.path.join(out_dir, f"{trip_name}_summary.json")
     with open(summary_path, "w", encoding="utf-8") as f:
         json.dump(routes_summary, f, ensure_ascii=False, indent=2)
 
-    # Notification : route la plus rapide
-    if routes_summary:
-        best = min(routes_summary, key=lambda x: x["time_minutes"])
+    return routes_summary
 
-        message = (
-            f"Trajet le plus rapide : {best['time_minutes']} min, "
-            f"{best['distance_km']} km\n"
+
+def main():
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    out_dir = os.path.join("data", timestamp)
+    os.makedirs(out_dir, exist_ok=True)
+
+    best_per_trip = {}
+
+    for trip_name, from_addr, to_addr in TRIPS:
+        print(f"--- Calcul du trajet : {trip_name} ---")
+        summary = process_trip(trip_name, from_addr, to_addr, out_dir)
+        print(summary)
+
+        if summary:
+            best = min(summary, key=lambda x: x["time_minutes"])
+            best_per_trip[trip_name] = best
+
+    # Construction du message de notification
+    message_lines = []
+    for trip_name, best in best_per_trip.items():
+        message_lines.append(
+            f"{trip_name.capitalize()} : {best['time_minutes']} min, "
+            f"{best['distance_km']} km "
+            f"(data/{timestamp}/{trip_name}_route_{best['index']}.html)"
         )
 
+    message = "\n".join(message_lines)
+
+    if message:
         requests.post(
             NTFY_URL,
             data=message.encode("utf-8"),
-            headers={"Title": f"Trajet Waze - {timestamp}"}
+            headers={"Title": f"Trajets Waze - {timestamp}"}
         )
 
     print(f"Données enregistrées dans {out_dir}")
-    print(routes_summary)
 
 
 if __name__ == "__main__":
