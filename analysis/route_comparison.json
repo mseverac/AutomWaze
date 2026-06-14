@@ -1,0 +1,342 @@
+{
+  "Point par point   (précision=4, ~11m)": {
+    "groups": [
+      {
+        "group_index": 1,
+        "size": 3,
+        "members": [
+          "2026-06-13_16-51-37____route0",
+          "2026-06-13_17-11-58____route0",
+          "2026-06-14_17-10-03__aller__route0"
+        ],
+        "time_avg": 24.2,
+        "time_min": 23.0,
+        "time_max": 26.42,
+        "distance_avg_km": 21.11
+      },
+      {
+        "group_index": 2,
+        "size": 25,
+        "members": [
+          "2026-06-13_16-51-37____route1",
+          "2026-06-13_17-11-58____route1",
+          "2026-06-13_18-55-46__aller__route0",
+          "2026-06-13_19-09-05____route0",
+          "2026-06-13_21-03-15____route0",
+          "2026-06-13_22-54-35____route0",
+          "2026-06-13_23-59-05____route0",
+          "2026-06-14_04-14-14____route0",
+          "2026-06-14_08-37-02____route0",
+          "2026-06-14_14-33-52__aller__route0",
+          "2026-06-14_14-50-49__aller__route0",
+          "2026-06-14_14-51-56__aller__route0",
+          "2026-06-14_15-12-59__aller__route0",
+          "2026-06-14_15-13-50__aller__route0",
+          "2026-06-14_15-15-23__aller__route0",
+          "2026-06-14_15-15-58__aller__route0",
+          "2026-06-14_15-16-06__aller__route0",
+          "2026-06-14_17-10-03__aller__route1",
+          "2026-06-14_17-16-34__aller__route1",
+          "2026-06-14_17-18-45__aller__route1",
+          "2026-06-14_17-22-31__aller__route1",
+          "2026-06-14_17-24-06__aller__route1",
+          "2026-06-14_17-25-31__aller__route1",
+          "2026-06-14_17-27-07__aller__route1",
+          "2026-06-14_17-36-25__aller__route1"
+        ],
+        "time_avg": 23.78,
+        "time_min": 19.85,
+        "time_max": 28.73,
+        "distance_avg_km": 19.66
+      },
+      {
+        "group_index": 3,
+        "size": 12,
+        "members": [
+          "2026-06-13_18-55-46__retour__route0",
+          "2026-06-14_14-33-52__retour__route0",
+          "2026-06-14_14-50-49__retour__route0",
+          "2026-06-14_14-51-56__retour__route0",
+          "2026-06-14_17-10-03__retour__route0",
+          "2026-06-14_17-16-34__retour__route0",
+          "2026-06-14_17-18-45__retour__route0",
+          "2026-06-14_17-22-31__retour__route0",
+          "2026-06-14_17-24-06__retour__route0",
+          "2026-06-14_17-25-31__retour__route0",
+          "2026-06-14_17-27-07__retour__route0",
+          "2026-06-14_17-36-25__retour__route0"
+        ],
+        "time_avg": 20.31,
+        "time_min": 20.05,
+        "time_max": 20.58,
+        "distance_avg_km": 18.12
+      },
+      {
+        "group_index": 4,
+        "size": 12,
+        "members": [
+          "2026-06-13_18-55-46__retour__route1",
+          "2026-06-14_14-33-52__retour__route1",
+          "2026-06-14_14-50-49__retour__route1",
+          "2026-06-14_14-51-56__retour__route1",
+          "2026-06-14_17-10-03__retour__route1",
+          "2026-06-14_17-16-34__retour__route1",
+          "2026-06-14_17-18-45__retour__route1",
+          "2026-06-14_17-22-31__retour__route1",
+          "2026-06-14_17-24-06__retour__route1",
+          "2026-06-14_17-25-31__retour__route1",
+          "2026-06-14_17-27-07__retour__route1",
+          "2026-06-14_17-36-25__retour__route1"
+        ],
+        "time_avg": 25.34,
+        "time_min": 25.08,
+        "time_max": 25.75,
+        "distance_avg_km": 18.42
+      },
+      {
+        "group_index": 5,
+        "size": 7,
+        "members": [
+          "2026-06-14_17-16-34__aller__route0",
+          "2026-06-14_17-18-45__aller__route0",
+          "2026-06-14_17-22-31__aller__route0",
+          "2026-06-14_17-24-06__aller__route0",
+          "2026-06-14_17-25-31__aller__route0",
+          "2026-06-14_17-27-07__aller__route0",
+          "2026-06-14_17-36-25__aller__route0"
+        ],
+        "time_avg": 25.75,
+        "time_min": 25.4,
+        "time_max": 26.72,
+        "distance_avg_km": 19.85
+      }
+    ]
+  },
+  "Échantillon 10pts (précision=3, ~100m)": {
+    "groups": [
+      {
+        "group_index": 1,
+        "size": 3,
+        "members": [
+          "2026-06-13_16-51-37____route0",
+          "2026-06-13_17-11-58____route0",
+          "2026-06-14_17-10-03__aller__route0"
+        ],
+        "time_avg": 24.2,
+        "time_min": 23.0,
+        "time_max": 26.42,
+        "distance_avg_km": 21.11
+      },
+      {
+        "group_index": 2,
+        "size": 25,
+        "members": [
+          "2026-06-13_16-51-37____route1",
+          "2026-06-13_17-11-58____route1",
+          "2026-06-13_18-55-46__aller__route0",
+          "2026-06-13_19-09-05____route0",
+          "2026-06-13_21-03-15____route0",
+          "2026-06-13_22-54-35____route0",
+          "2026-06-13_23-59-05____route0",
+          "2026-06-14_04-14-14____route0",
+          "2026-06-14_08-37-02____route0",
+          "2026-06-14_14-33-52__aller__route0",
+          "2026-06-14_14-50-49__aller__route0",
+          "2026-06-14_14-51-56__aller__route0",
+          "2026-06-14_15-12-59__aller__route0",
+          "2026-06-14_15-13-50__aller__route0",
+          "2026-06-14_15-15-23__aller__route0",
+          "2026-06-14_15-15-58__aller__route0",
+          "2026-06-14_15-16-06__aller__route0",
+          "2026-06-14_17-10-03__aller__route1",
+          "2026-06-14_17-16-34__aller__route1",
+          "2026-06-14_17-18-45__aller__route1",
+          "2026-06-14_17-22-31__aller__route1",
+          "2026-06-14_17-24-06__aller__route1",
+          "2026-06-14_17-25-31__aller__route1",
+          "2026-06-14_17-27-07__aller__route1",
+          "2026-06-14_17-36-25__aller__route1"
+        ],
+        "time_avg": 23.78,
+        "time_min": 19.85,
+        "time_max": 28.73,
+        "distance_avg_km": 19.66
+      },
+      {
+        "group_index": 3,
+        "size": 12,
+        "members": [
+          "2026-06-13_18-55-46__retour__route0",
+          "2026-06-14_14-33-52__retour__route0",
+          "2026-06-14_14-50-49__retour__route0",
+          "2026-06-14_14-51-56__retour__route0",
+          "2026-06-14_17-10-03__retour__route0",
+          "2026-06-14_17-16-34__retour__route0",
+          "2026-06-14_17-18-45__retour__route0",
+          "2026-06-14_17-22-31__retour__route0",
+          "2026-06-14_17-24-06__retour__route0",
+          "2026-06-14_17-25-31__retour__route0",
+          "2026-06-14_17-27-07__retour__route0",
+          "2026-06-14_17-36-25__retour__route0"
+        ],
+        "time_avg": 20.31,
+        "time_min": 20.05,
+        "time_max": 20.58,
+        "distance_avg_km": 18.12
+      },
+      {
+        "group_index": 4,
+        "size": 12,
+        "members": [
+          "2026-06-13_18-55-46__retour__route1",
+          "2026-06-14_14-33-52__retour__route1",
+          "2026-06-14_14-50-49__retour__route1",
+          "2026-06-14_14-51-56__retour__route1",
+          "2026-06-14_17-10-03__retour__route1",
+          "2026-06-14_17-16-34__retour__route1",
+          "2026-06-14_17-18-45__retour__route1",
+          "2026-06-14_17-22-31__retour__route1",
+          "2026-06-14_17-24-06__retour__route1",
+          "2026-06-14_17-25-31__retour__route1",
+          "2026-06-14_17-27-07__retour__route1",
+          "2026-06-14_17-36-25__retour__route1"
+        ],
+        "time_avg": 25.34,
+        "time_min": 25.08,
+        "time_max": 25.75,
+        "distance_avg_km": 18.42
+      },
+      {
+        "group_index": 5,
+        "size": 7,
+        "members": [
+          "2026-06-14_17-16-34__aller__route0",
+          "2026-06-14_17-18-45__aller__route0",
+          "2026-06-14_17-22-31__aller__route0",
+          "2026-06-14_17-24-06__aller__route0",
+          "2026-06-14_17-25-31__aller__route0",
+          "2026-06-14_17-27-07__aller__route0",
+          "2026-06-14_17-36-25__aller__route0"
+        ],
+        "time_avg": 25.75,
+        "time_min": 25.4,
+        "time_max": 26.72,
+        "distance_avg_km": 19.85
+      }
+    ]
+  },
+  "Hausdorff         (seuil=200m)": {
+    "groups": [
+      {
+        "group_index": 1,
+        "size": 3,
+        "members": [
+          "2026-06-13_16-51-37____route0",
+          "2026-06-13_17-11-58____route0",
+          "2026-06-14_17-10-03__aller__route0"
+        ],
+        "time_avg": 24.2,
+        "time_min": 23.0,
+        "time_max": 26.42,
+        "distance_avg_km": 21.11
+      },
+      {
+        "group_index": 2,
+        "size": 25,
+        "members": [
+          "2026-06-13_16-51-37____route1",
+          "2026-06-13_17-11-58____route1",
+          "2026-06-13_18-55-46__aller__route0",
+          "2026-06-13_19-09-05____route0",
+          "2026-06-13_21-03-15____route0",
+          "2026-06-13_22-54-35____route0",
+          "2026-06-13_23-59-05____route0",
+          "2026-06-14_04-14-14____route0",
+          "2026-06-14_08-37-02____route0",
+          "2026-06-14_14-33-52__aller__route0",
+          "2026-06-14_14-50-49__aller__route0",
+          "2026-06-14_14-51-56__aller__route0",
+          "2026-06-14_15-12-59__aller__route0",
+          "2026-06-14_15-13-50__aller__route0",
+          "2026-06-14_15-15-23__aller__route0",
+          "2026-06-14_15-15-58__aller__route0",
+          "2026-06-14_15-16-06__aller__route0",
+          "2026-06-14_17-10-03__aller__route1",
+          "2026-06-14_17-16-34__aller__route1",
+          "2026-06-14_17-18-45__aller__route1",
+          "2026-06-14_17-22-31__aller__route1",
+          "2026-06-14_17-24-06__aller__route1",
+          "2026-06-14_17-25-31__aller__route1",
+          "2026-06-14_17-27-07__aller__route1",
+          "2026-06-14_17-36-25__aller__route1"
+        ],
+        "time_avg": 23.78,
+        "time_min": 19.85,
+        "time_max": 28.73,
+        "distance_avg_km": 19.66
+      },
+      {
+        "group_index": 3,
+        "size": 12,
+        "members": [
+          "2026-06-13_18-55-46__retour__route0",
+          "2026-06-14_14-33-52__retour__route0",
+          "2026-06-14_14-50-49__retour__route0",
+          "2026-06-14_14-51-56__retour__route0",
+          "2026-06-14_17-10-03__retour__route0",
+          "2026-06-14_17-16-34__retour__route0",
+          "2026-06-14_17-18-45__retour__route0",
+          "2026-06-14_17-22-31__retour__route0",
+          "2026-06-14_17-24-06__retour__route0",
+          "2026-06-14_17-25-31__retour__route0",
+          "2026-06-14_17-27-07__retour__route0",
+          "2026-06-14_17-36-25__retour__route0"
+        ],
+        "time_avg": 20.31,
+        "time_min": 20.05,
+        "time_max": 20.58,
+        "distance_avg_km": 18.12
+      },
+      {
+        "group_index": 4,
+        "size": 12,
+        "members": [
+          "2026-06-13_18-55-46__retour__route1",
+          "2026-06-14_14-33-52__retour__route1",
+          "2026-06-14_14-50-49__retour__route1",
+          "2026-06-14_14-51-56__retour__route1",
+          "2026-06-14_17-10-03__retour__route1",
+          "2026-06-14_17-16-34__retour__route1",
+          "2026-06-14_17-18-45__retour__route1",
+          "2026-06-14_17-22-31__retour__route1",
+          "2026-06-14_17-24-06__retour__route1",
+          "2026-06-14_17-25-31__retour__route1",
+          "2026-06-14_17-27-07__retour__route1",
+          "2026-06-14_17-36-25__retour__route1"
+        ],
+        "time_avg": 25.34,
+        "time_min": 25.08,
+        "time_max": 25.75,
+        "distance_avg_km": 18.42
+      },
+      {
+        "group_index": 5,
+        "size": 7,
+        "members": [
+          "2026-06-14_17-16-34__aller__route0",
+          "2026-06-14_17-18-45__aller__route0",
+          "2026-06-14_17-22-31__aller__route0",
+          "2026-06-14_17-24-06__aller__route0",
+          "2026-06-14_17-25-31__aller__route0",
+          "2026-06-14_17-27-07__aller__route0",
+          "2026-06-14_17-36-25__aller__route0"
+        ],
+        "time_avg": 25.75,
+        "time_min": 25.4,
+        "time_max": 26.72,
+        "distance_avg_km": 19.85
+      }
+    ]
+  },
+  "disagreements_between_methods": []
+}
