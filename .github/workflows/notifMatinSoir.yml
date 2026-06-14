@@ -1,9 +1,8 @@
 name: Notification horaire matin et soir
 
 on:
-  schedule:
-  - cron: '28  5,14 * * *'
-  workflow_dispatch:
+  repository_dispatch:
+    types: [hourly-trigger]
 
 permissions:
   contents: write
