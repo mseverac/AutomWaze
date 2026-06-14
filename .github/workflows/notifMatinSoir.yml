@@ -3,6 +3,7 @@ name: Notification horaire matin et soir
 on:
   repository_dispatch:
     types: [hourly-trigger]
+  workflow_dispatch:
 
 permissions:
   contents: write
