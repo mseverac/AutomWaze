@@ -2,7 +2,7 @@ name: Notification horaire
 
 on:
   schedule:
-  - cron: '28 5,14 * * *'
+  - cron: '0,15,30,45  * * * *'
   workflow_dispatch:
 
 permissions:
@@ -25,7 +25,7 @@ jobs:
           pip install requests folium WazeRouteCalculator
 
       - name: Exécuter le script
-        run: python collect_routes.py
+        run: python main_silencieux.py
 
       - name: Commit et push des nouvelles données
         run: |
