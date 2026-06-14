@@ -2,7 +2,7 @@ name: Notification horaire
 
 on:
   schedule:
-    - cron: '0 * * * *'
+  - cron: '28 5,14 * * *'
   workflow_dispatch:
 
 permissions:
