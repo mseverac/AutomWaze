@@ -497,10 +497,10 @@
       ],
       "representative_id": "2026-06-13_16-51-37____route1",
       "stats": {
-        "occurrences": 25,
-        "time_avg_min": 23.78,
+        "occurrences": 92,
+        "time_avg_min": 23.41,
         "time_min_min": 19.85,
-        "time_max_min": 28.73,
+        "time_max_min": 38.77,
         "distance_avg_km": 19.66
       },
       "preview_png": "analysis/route_groups/group_01_preview.png",
@@ -570,6 +570,13 @@
           "distance_km": 19.66
         },
         {
+          "id": "2026-06-14_10-27-10__aller__route0",
+          "run": "2026-06-14_10-27-10",
+          "trip": "aller",
+          "time_minutes": 21.17,
+          "distance_km": 19.66
+        },
+        {
           "id": "2026-06-14_14-33-52__aller__route0",
           "run": "2026-06-14_14-33-52",
           "trip": "aller",
@@ -626,10 +633,31 @@
           "distance_km": 19.66
         },
         {
+          "id": "2026-06-14_15-56-25__aller__route1",
+          "run": "2026-06-14_15-56-25",
+          "trip": "aller",
+          "time_minutes": 28.03,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-14_16-54-31__aller__route1",
+          "run": "2026-06-14_16-54-31",
+          "trip": "aller",
+          "time_minutes": 28.08,
+          "distance_km": 19.66
+        },
+        {
           "id": "2026-06-14_17-10-03__aller__route1",
           "run": "2026-06-14_17-10-03",
           "trip": "aller",
           "time_minutes": 28.73,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-14_17-12-51__aller__route1",
+          "run": "2026-06-14_17-12-51",
+          "trip": "aller",
+          "time_minutes": 26.52,
           "distance_km": 19.66
         },
         {
@@ -679,6 +707,447 @@
           "run": "2026-06-14_17-36-25",
           "trip": "aller",
           "time_minutes": 26.15,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-14_17-47-29__aller__route1",
+          "run": "2026-06-14_17-47-29",
+          "trip": "aller",
+          "time_minutes": 26.63,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-14_17-59-37__aller__route1",
+          "run": "2026-06-14_17-59-37",
+          "trip": "aller",
+          "time_minutes": 28.92,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-14_18-44-31__aller__route0",
+          "run": "2026-06-14_18-44-31",
+          "trip": "aller",
+          "time_minutes": 23.03,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-14_20-10-45__aller__route0",
+          "run": "2026-06-14_20-10-45",
+          "trip": "aller",
+          "time_minutes": 30.98,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-14_21-37-57__aller__route0",
+          "run": "2026-06-14_21-37-57",
+          "trip": "aller",
+          "time_minutes": 20.53,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-14_22-49-51__aller__route0",
+          "run": "2026-06-14_22-49-51",
+          "trip": "aller",
+          "time_minutes": 20.4,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-15_00-02-56__aller__route0",
+          "run": "2026-06-15_00-02-56",
+          "trip": "aller",
+          "time_minutes": 20.27,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-15_05-26-41__aller__route1",
+          "run": "2026-06-15_05-26-41",
+          "trip": "aller",
+          "time_minutes": 34.3,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-15_11-28-22__aller__route0",
+          "run": "2026-06-15_11-28-22",
+          "trip": "aller",
+          "time_minutes": 21.7,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-15_14-08-54__aller__route0",
+          "run": "2026-06-15_14-08-54",
+          "trip": "aller",
+          "time_minutes": 22.77,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-15_16-26-55__aller__route1",
+          "run": "2026-06-15_16-26-55",
+          "trip": "aller",
+          "time_minutes": 34.62,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-15_20-01-53__aller__route0",
+          "run": "2026-06-15_20-01-53",
+          "trip": "aller",
+          "time_minutes": 21.15,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-15_22-28-05__aller__route0",
+          "run": "2026-06-15_22-28-05",
+          "trip": "aller",
+          "time_minutes": 20.97,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-16_00-11-02__aller__route0",
+          "run": "2026-06-16_00-11-02",
+          "trip": "aller",
+          "time_minutes": 21.38,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-16_05-31-06__aller__route1",
+          "run": "2026-06-16_05-31-06",
+          "trip": "aller",
+          "time_minutes": 38.77,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-16_10-30-07__aller__route0",
+          "run": "2026-06-16_10-30-07",
+          "trip": "aller",
+          "time_minutes": 22.03,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-16_15-28-58__aller__route1",
+          "run": "2026-06-16_15-28-58",
+          "trip": "aller",
+          "time_minutes": 28.37,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-16_19-02-48__aller__route0",
+          "run": "2026-06-16_19-02-48",
+          "trip": "aller",
+          "time_minutes": 20.18,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-16_21-47-35__aller__route0",
+          "run": "2026-06-16_21-47-35",
+          "trip": "aller",
+          "time_minutes": 21.15,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-16_23-18-24__aller__route0",
+          "run": "2026-06-16_23-18-24",
+          "trip": "aller",
+          "time_minutes": 20.85,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-17_01-59-10__aller__route0",
+          "run": "2026-06-17_01-59-10",
+          "trip": "aller",
+          "time_minutes": 20.6,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-17_07-13-01__aller__route1",
+          "run": "2026-06-17_07-13-01",
+          "trip": "aller",
+          "time_minutes": 34.18,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-17_11-57-53__aller__route0",
+          "run": "2026-06-17_11-57-53",
+          "trip": "aller",
+          "time_minutes": 21.8,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-17_15-24-32__aller__route1",
+          "run": "2026-06-17_15-24-32",
+          "trip": "aller",
+          "time_minutes": 28.37,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-17_18-01-47__aller__route0",
+          "run": "2026-06-17_18-01-47",
+          "trip": "aller",
+          "time_minutes": 21.97,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-17_20-29-39__aller__route0",
+          "run": "2026-06-17_20-29-39",
+          "trip": "aller",
+          "time_minutes": 21.13,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-17_22-21-03__aller__route0",
+          "run": "2026-06-17_22-21-03",
+          "trip": "aller",
+          "time_minutes": 21.1,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-17_23-54-52__aller__route0",
+          "run": "2026-06-17_23-54-52",
+          "trip": "aller",
+          "time_minutes": 20.42,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-18_02-44-31__aller__route0",
+          "run": "2026-06-18_02-44-31",
+          "trip": "aller",
+          "time_minutes": 20.0,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-18_07-20-09__aller__route1",
+          "run": "2026-06-18_07-20-09",
+          "trip": "aller",
+          "time_minutes": 32.03,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-18_11-34-31__aller__route0",
+          "run": "2026-06-18_11-34-31",
+          "trip": "aller",
+          "time_minutes": 22.43,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-18_14-11-28__aller__route0",
+          "run": "2026-06-18_14-11-28",
+          "trip": "aller",
+          "time_minutes": 23.43,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-18_14-34-23__aller__route1",
+          "run": "2026-06-18_14-34-23",
+          "trip": "aller",
+          "time_minutes": 24.78,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-18_17-47-59__aller__route0",
+          "run": "2026-06-18_17-47-59",
+          "trip": "aller",
+          "time_minutes": 21.15,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-18_20-12-45__aller__route0",
+          "run": "2026-06-18_20-12-45",
+          "trip": "aller",
+          "time_minutes": 21.53,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-18_22-25-38__aller__route0",
+          "run": "2026-06-18_22-25-38",
+          "trip": "aller",
+          "time_minutes": 20.65,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-19_00-07-53__aller__route0",
+          "run": "2026-06-19_00-07-53",
+          "trip": "aller",
+          "time_minutes": 20.92,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-19_05-22-46__aller__route0",
+          "run": "2026-06-19_05-22-46",
+          "trip": "aller",
+          "time_minutes": 25.88,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-19_09-57-30__aller__route0",
+          "run": "2026-06-19_09-57-30",
+          "trip": "aller",
+          "time_minutes": 21.8,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-19_13-33-29__aller__route0",
+          "run": "2026-06-19_13-33-29",
+          "trip": "aller",
+          "time_minutes": 22.87,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-19_16-20-55__aller__route1",
+          "run": "2026-06-19_16-20-55",
+          "trip": "aller",
+          "time_minutes": 25.17,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-19_18-14-19__aller__route0",
+          "run": "2026-06-19_18-14-19",
+          "trip": "aller",
+          "time_minutes": 21.08,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-19_20-04-17__aller__route0",
+          "run": "2026-06-19_20-04-17",
+          "trip": "aller",
+          "time_minutes": 20.85,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-19_21-20-50__aller__route0",
+          "run": "2026-06-19_21-20-50",
+          "trip": "aller",
+          "time_minutes": 20.97,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-19_22-29-45__aller__route0",
+          "run": "2026-06-19_22-29-45",
+          "trip": "aller",
+          "time_minutes": 20.97,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-19_23-37-21__aller__route0",
+          "run": "2026-06-19_23-37-21",
+          "trip": "aller",
+          "time_minutes": 20.65,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-20_01-51-13__aller__route0",
+          "run": "2026-06-20_01-51-13",
+          "trip": "aller",
+          "time_minutes": 20.33,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-20_06-12-54__aller__route0",
+          "run": "2026-06-20_06-12-54",
+          "trip": "aller",
+          "time_minutes": 20.33,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-20_09-41-28__aller__route0",
+          "run": "2026-06-20_09-41-28",
+          "trip": "aller",
+          "time_minutes": 21.58,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-20_11-33-49__aller__route0",
+          "run": "2026-06-20_11-33-49",
+          "trip": "aller",
+          "time_minutes": 21.33,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-20_13-12-07__aller__route0",
+          "run": "2026-06-20_13-12-07",
+          "trip": "aller",
+          "time_minutes": 21.23,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-20_15-13-54__aller__route0",
+          "run": "2026-06-20_15-13-54",
+          "trip": "aller",
+          "time_minutes": 22.13,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-20_16-51-21__aller__route0",
+          "run": "2026-06-20_16-51-21",
+          "trip": "aller",
+          "time_minutes": 21.55,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-20_18-05-50__aller__route0",
+          "run": "2026-06-20_18-05-50",
+          "trip": "aller",
+          "time_minutes": 20.62,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-20_19-54-35__aller__route0",
+          "run": "2026-06-20_19-54-35",
+          "trip": "aller",
+          "time_minutes": 20.43,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-20_21-05-54__aller__route0",
+          "run": "2026-06-20_21-05-54",
+          "trip": "aller",
+          "time_minutes": 21.65,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-20_22-21-51__aller__route0",
+          "run": "2026-06-20_22-21-51",
+          "trip": "aller",
+          "time_minutes": 21.33,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-20_23-42-01__aller__route0",
+          "run": "2026-06-20_23-42-01",
+          "trip": "aller",
+          "time_minutes": 20.98,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-21_02-05-22__aller__route0",
+          "run": "2026-06-21_02-05-22",
+          "trip": "aller",
+          "time_minutes": 20.55,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-21_07-05-56__aller__route0",
+          "run": "2026-06-21_07-05-56",
+          "trip": "aller",
+          "time_minutes": 20.58,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-21_10-45-09__aller__route0",
+          "run": "2026-06-21_10-45-09",
+          "trip": "aller",
+          "time_minutes": 20.75,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-21_12-30-53__aller__route0",
+          "run": "2026-06-21_12-30-53",
+          "trip": "aller",
+          "time_minutes": 21.72,
+          "distance_km": 19.66
+        },
+        {
+          "id": "2026-06-21_15-01-25__aller__route0",
+          "run": "2026-06-21_15-01-25",
+          "trip": "aller",
+          "time_minutes": 22.78,
           "distance_km": 19.66
         }
       ]
@@ -1124,10 +1593,10 @@
       ],
       "representative_id": "2026-06-13_18-55-46__retour__route0",
       "stats": {
-        "occurrences": 12,
-        "time_avg_min": 20.31,
-        "time_min_min": 20.05,
-        "time_max_min": 20.58,
+        "occurrences": 79,
+        "time_avg_min": 21.48,
+        "time_min_min": 19.05,
+        "time_max_min": 36.13,
         "distance_avg_km": 18.12
       },
       "preview_png": "analysis/route_groups/group_02_preview.png",
@@ -1138,6 +1607,13 @@
           "run": "2026-06-13_18-55-46",
           "trip": "retour",
           "time_minutes": 20.15,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-14_10-27-10__retour__route0",
+          "run": "2026-06-14_10-27-10",
+          "trip": "retour",
+          "time_minutes": 20.77,
           "distance_km": 18.12
         },
         {
@@ -1162,10 +1638,31 @@
           "distance_km": 18.12
         },
         {
+          "id": "2026-06-14_15-56-25__retour__route0",
+          "run": "2026-06-14_15-56-25",
+          "trip": "retour",
+          "time_minutes": 20.65,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-14_16-54-31__retour__route0",
+          "run": "2026-06-14_16-54-31",
+          "trip": "retour",
+          "time_minutes": 20.62,
+          "distance_km": 18.12
+        },
+        {
           "id": "2026-06-14_17-10-03__retour__route0",
           "run": "2026-06-14_17-10-03",
           "trip": "retour",
           "time_minutes": 20.42,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-14_17-12-51__retour__route0",
+          "run": "2026-06-14_17-12-51",
+          "trip": "retour",
+          "time_minutes": 19.97,
           "distance_km": 18.12
         },
         {
@@ -1215,6 +1712,447 @@
           "run": "2026-06-14_17-36-25",
           "trip": "retour",
           "time_minutes": 20.05,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-14_17-47-29__retour__route0",
+          "run": "2026-06-14_17-47-29",
+          "trip": "retour",
+          "time_minutes": 20.42,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-14_17-59-37__retour__route0",
+          "run": "2026-06-14_17-59-37",
+          "trip": "retour",
+          "time_minutes": 20.3,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-14_18-44-31__retour__route0",
+          "run": "2026-06-14_18-44-31",
+          "trip": "retour",
+          "time_minutes": 19.55,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-14_20-10-45__retour__route0",
+          "run": "2026-06-14_20-10-45",
+          "trip": "retour",
+          "time_minutes": 19.88,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-14_21-37-57__retour__route0",
+          "run": "2026-06-14_21-37-57",
+          "trip": "retour",
+          "time_minutes": 19.8,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-14_22-49-51__retour__route0",
+          "run": "2026-06-14_22-49-51",
+          "trip": "retour",
+          "time_minutes": 19.7,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-15_00-02-56__retour__route0",
+          "run": "2026-06-15_00-02-56",
+          "trip": "retour",
+          "time_minutes": 19.82,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-15_05-26-41__retour__route0",
+          "run": "2026-06-15_05-26-41",
+          "trip": "retour",
+          "time_minutes": 22.68,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-15_11-28-22__retour__route0",
+          "run": "2026-06-15_11-28-22",
+          "trip": "retour",
+          "time_minutes": 21.47,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-15_14-08-54__retour__route0",
+          "run": "2026-06-15_14-08-54",
+          "trip": "retour",
+          "time_minutes": 22.33,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-15_16-26-55__retour__route1",
+          "run": "2026-06-15_16-26-55",
+          "trip": "retour",
+          "time_minutes": 35.1,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-15_20-01-53__retour__route0",
+          "run": "2026-06-15_20-01-53",
+          "trip": "retour",
+          "time_minutes": 20.95,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-15_22-28-05__retour__route0",
+          "run": "2026-06-15_22-28-05",
+          "trip": "retour",
+          "time_minutes": 20.67,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-16_00-11-02__retour__route0",
+          "run": "2026-06-16_00-11-02",
+          "trip": "retour",
+          "time_minutes": 21.67,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-16_05-31-06__retour__route0",
+          "run": "2026-06-16_05-31-06",
+          "trip": "retour",
+          "time_minutes": 23.25,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-16_10-30-07__retour__route0",
+          "run": "2026-06-16_10-30-07",
+          "trip": "retour",
+          "time_minutes": 20.33,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-16_15-28-58__retour__route0",
+          "run": "2026-06-16_15-28-58",
+          "trip": "retour",
+          "time_minutes": 35.85,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-16_19-02-48__retour__route0",
+          "run": "2026-06-16_19-02-48",
+          "trip": "retour",
+          "time_minutes": 19.4,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-16_21-47-35__retour__route0",
+          "run": "2026-06-16_21-47-35",
+          "trip": "retour",
+          "time_minutes": 19.78,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-16_23-18-24__retour__route0",
+          "run": "2026-06-16_23-18-24",
+          "trip": "retour",
+          "time_minutes": 19.63,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-17_01-59-10__retour__route0",
+          "run": "2026-06-17_01-59-10",
+          "trip": "retour",
+          "time_minutes": 20.7,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-17_07-13-01__retour__route0",
+          "run": "2026-06-17_07-13-01",
+          "trip": "retour",
+          "time_minutes": 23.23,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-17_11-57-53__retour__route0",
+          "run": "2026-06-17_11-57-53",
+          "trip": "retour",
+          "time_minutes": 21.97,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-17_15-24-32__retour__route0",
+          "run": "2026-06-17_15-24-32",
+          "trip": "retour",
+          "time_minutes": 36.13,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-17_18-01-47__retour__route0",
+          "run": "2026-06-17_18-01-47",
+          "trip": "retour",
+          "time_minutes": 20.37,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-17_20-29-39__retour__route0",
+          "run": "2026-06-17_20-29-39",
+          "trip": "retour",
+          "time_minutes": 20.28,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-17_22-21-03__retour__route0",
+          "run": "2026-06-17_22-21-03",
+          "trip": "retour",
+          "time_minutes": 20.12,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-17_23-54-52__retour__route0",
+          "run": "2026-06-17_23-54-52",
+          "trip": "retour",
+          "time_minutes": 20.2,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-18_02-44-31__retour__route0",
+          "run": "2026-06-18_02-44-31",
+          "trip": "retour",
+          "time_minutes": 19.7,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-18_07-20-09__retour__route0",
+          "run": "2026-06-18_07-20-09",
+          "trip": "retour",
+          "time_minutes": 24.2,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-18_11-34-31__retour__route0",
+          "run": "2026-06-18_11-34-31",
+          "trip": "retour",
+          "time_minutes": 20.93,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-18_14-11-28__retour__route0",
+          "run": "2026-06-18_14-11-28",
+          "trip": "retour",
+          "time_minutes": 26.03,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-18_14-34-23__retour__route0",
+          "run": "2026-06-18_14-34-23",
+          "trip": "retour",
+          "time_minutes": 26.37,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-18_17-47-59__retour__route0",
+          "run": "2026-06-18_17-47-59",
+          "trip": "retour",
+          "time_minutes": 21.18,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-18_20-12-45__retour__route0",
+          "run": "2026-06-18_20-12-45",
+          "trip": "retour",
+          "time_minutes": 19.7,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-18_22-25-38__retour__route0",
+          "run": "2026-06-18_22-25-38",
+          "trip": "retour",
+          "time_minutes": 19.05,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-19_00-07-53__retour__route0",
+          "run": "2026-06-19_00-07-53",
+          "trip": "retour",
+          "time_minutes": 20.73,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-19_05-22-46__retour__route0",
+          "run": "2026-06-19_05-22-46",
+          "trip": "retour",
+          "time_minutes": 21.33,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-19_09-57-30__retour__route0",
+          "run": "2026-06-19_09-57-30",
+          "trip": "retour",
+          "time_minutes": 22.4,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-19_13-33-29__retour__route1",
+          "run": "2026-06-19_13-33-29",
+          "trip": "retour",
+          "time_minutes": 27.57,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-19_16-20-55__retour__route0",
+          "run": "2026-06-19_16-20-55",
+          "trip": "retour",
+          "time_minutes": 31.33,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-19_18-14-19__retour__route0",
+          "run": "2026-06-19_18-14-19",
+          "trip": "retour",
+          "time_minutes": 21.8,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-19_20-04-17__retour__route0",
+          "run": "2026-06-19_20-04-17",
+          "trip": "retour",
+          "time_minutes": 19.78,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-19_21-20-50__retour__route0",
+          "run": "2026-06-19_21-20-50",
+          "trip": "retour",
+          "time_minutes": 20.22,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-19_22-29-45__retour__route0",
+          "run": "2026-06-19_22-29-45",
+          "trip": "retour",
+          "time_minutes": 19.48,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-19_23-37-21__retour__route0",
+          "run": "2026-06-19_23-37-21",
+          "trip": "retour",
+          "time_minutes": 20.98,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-20_01-51-13__retour__route0",
+          "run": "2026-06-20_01-51-13",
+          "trip": "retour",
+          "time_minutes": 19.15,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-20_06-12-54__retour__route0",
+          "run": "2026-06-20_06-12-54",
+          "trip": "retour",
+          "time_minutes": 19.5,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-20_09-41-28__retour__route0",
+          "run": "2026-06-20_09-41-28",
+          "trip": "retour",
+          "time_minutes": 22.98,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-20_11-33-49__retour__route0",
+          "run": "2026-06-20_11-33-49",
+          "trip": "retour",
+          "time_minutes": 20.3,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-20_13-12-07__retour__route0",
+          "run": "2026-06-20_13-12-07",
+          "trip": "retour",
+          "time_minutes": 20.57,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-20_15-13-54__retour__route0",
+          "run": "2026-06-20_15-13-54",
+          "trip": "retour",
+          "time_minutes": 20.47,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-20_16-51-21__retour__route0",
+          "run": "2026-06-20_16-51-21",
+          "trip": "retour",
+          "time_minutes": 19.97,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-20_18-05-50__retour__route0",
+          "run": "2026-06-20_18-05-50",
+          "trip": "retour",
+          "time_minutes": 19.7,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-20_19-54-35__retour__route0",
+          "run": "2026-06-20_19-54-35",
+          "trip": "retour",
+          "time_minutes": 20.15,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-20_21-05-54__retour__route0",
+          "run": "2026-06-20_21-05-54",
+          "trip": "retour",
+          "time_minutes": 20.43,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-20_22-21-51__retour__route0",
+          "run": "2026-06-20_22-21-51",
+          "trip": "retour",
+          "time_minutes": 20.85,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-20_23-42-01__retour__route0",
+          "run": "2026-06-20_23-42-01",
+          "trip": "retour",
+          "time_minutes": 20.05,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-21_02-05-22__retour__route0",
+          "run": "2026-06-21_02-05-22",
+          "trip": "retour",
+          "time_minutes": 19.65,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-21_07-05-56__retour__route0",
+          "run": "2026-06-21_07-05-56",
+          "trip": "retour",
+          "time_minutes": 19.48,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-21_10-45-09__retour__route0",
+          "run": "2026-06-21_10-45-09",
+          "trip": "retour",
+          "time_minutes": 20.07,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-21_12-30-53__retour__route0",
+          "run": "2026-06-21_12-30-53",
+          "trip": "retour",
+          "time_minutes": 19.9,
+          "distance_km": 18.12
+        },
+        {
+          "id": "2026-06-21_15-01-25__retour__route0",
+          "run": "2026-06-21_15-01-25",
+          "trip": "retour",
+          "time_minutes": 19.92,
           "distance_km": 18.12
         }
       ]
@@ -1792,10 +2730,10 @@
       ],
       "representative_id": "2026-06-13_18-55-46__retour__route1",
       "stats": {
-        "occurrences": 12,
-        "time_avg_min": 25.34,
-        "time_min_min": 25.08,
-        "time_max_min": 25.75,
+        "occurrences": 78,
+        "time_avg_min": 26.72,
+        "time_min_min": 23.75,
+        "time_max_min": 42.42,
         "distance_avg_km": 18.42
       },
       "preview_png": "analysis/route_groups/group_03_preview.png",
@@ -1806,6 +2744,13 @@
           "run": "2026-06-13_18-55-46",
           "trip": "retour",
           "time_minutes": 25.75,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-14_10-27-10__retour__route1",
+          "run": "2026-06-14_10-27-10",
+          "trip": "retour",
+          "time_minutes": 25.68,
           "distance_km": 18.42
         },
         {
@@ -1830,10 +2775,31 @@
           "distance_km": 18.42
         },
         {
+          "id": "2026-06-14_15-56-25__retour__route1",
+          "run": "2026-06-14_15-56-25",
+          "trip": "retour",
+          "time_minutes": 25.53,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-14_16-54-31__retour__route1",
+          "run": "2026-06-14_16-54-31",
+          "trip": "retour",
+          "time_minutes": 25.82,
+          "distance_km": 18.42
+        },
+        {
           "id": "2026-06-14_17-10-03__retour__route1",
           "run": "2026-06-14_17-10-03",
           "trip": "retour",
           "time_minutes": 25.37,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-14_17-12-51__retour__route1",
+          "run": "2026-06-14_17-12-51",
+          "trip": "retour",
+          "time_minutes": 25.05,
           "distance_km": 18.42
         },
         {
@@ -1884,601 +2850,446 @@
           "trip": "retour",
           "time_minutes": 25.12,
           "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-14_17-47-29__retour__route1",
+          "run": "2026-06-14_17-47-29",
+          "trip": "retour",
+          "time_minutes": 25.38,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-14_17-59-37__retour__route1",
+          "run": "2026-06-14_17-59-37",
+          "trip": "retour",
+          "time_minutes": 25.12,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-14_18-44-31__retour__route1",
+          "run": "2026-06-14_18-44-31",
+          "trip": "retour",
+          "time_minutes": 24.58,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-14_20-10-45__retour__route1",
+          "run": "2026-06-14_20-10-45",
+          "trip": "retour",
+          "time_minutes": 24.83,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-14_21-37-57__retour__route1",
+          "run": "2026-06-14_21-37-57",
+          "trip": "retour",
+          "time_minutes": 24.65,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-14_22-49-51__retour__route1",
+          "run": "2026-06-14_22-49-51",
+          "trip": "retour",
+          "time_minutes": 24.55,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-15_00-02-56__retour__route1",
+          "run": "2026-06-15_00-02-56",
+          "trip": "retour",
+          "time_minutes": 24.48,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-15_05-26-41__retour__route1",
+          "run": "2026-06-15_05-26-41",
+          "trip": "retour",
+          "time_minutes": 28.68,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-15_11-28-22__retour__route1",
+          "run": "2026-06-15_11-28-22",
+          "trip": "retour",
+          "time_minutes": 28.1,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-15_14-08-54__retour__route1",
+          "run": "2026-06-15_14-08-54",
+          "trip": "retour",
+          "time_minutes": 29.32,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-15_16-26-55__retour__route2",
+          "run": "2026-06-15_16-26-55",
+          "trip": "retour",
+          "time_minutes": 36.3,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-15_20-01-53__retour__route1",
+          "run": "2026-06-15_20-01-53",
+          "trip": "retour",
+          "time_minutes": 25.68,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-15_22-28-05__retour__route1",
+          "run": "2026-06-15_22-28-05",
+          "trip": "retour",
+          "time_minutes": 25.32,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-16_00-11-02__retour__route1",
+          "run": "2026-06-16_00-11-02",
+          "trip": "retour",
+          "time_minutes": 26.98,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-16_05-31-06__retour__route1",
+          "run": "2026-06-16_05-31-06",
+          "trip": "retour",
+          "time_minutes": 29.83,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-16_10-30-07__retour__route1",
+          "run": "2026-06-16_10-30-07",
+          "trip": "retour",
+          "time_minutes": 27.37,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-16_15-28-58__retour__route1",
+          "run": "2026-06-16_15-28-58",
+          "trip": "retour",
+          "time_minutes": 40.7,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-16_19-02-48__retour__route1",
+          "run": "2026-06-16_19-02-48",
+          "trip": "retour",
+          "time_minutes": 24.07,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-16_21-47-35__retour__route1",
+          "run": "2026-06-16_21-47-35",
+          "trip": "retour",
+          "time_minutes": 24.73,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-16_23-18-24__retour__route1",
+          "run": "2026-06-16_23-18-24",
+          "trip": "retour",
+          "time_minutes": 25.03,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-17_01-59-10__retour__route1",
+          "run": "2026-06-17_01-59-10",
+          "trip": "retour",
+          "time_minutes": 26.13,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-17_07-13-01__retour__route1",
+          "run": "2026-06-17_07-13-01",
+          "trip": "retour",
+          "time_minutes": 28.78,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-17_11-57-53__retour__route1",
+          "run": "2026-06-17_11-57-53",
+          "trip": "retour",
+          "time_minutes": 27.15,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-17_15-24-32__retour__route1",
+          "run": "2026-06-17_15-24-32",
+          "trip": "retour",
+          "time_minutes": 42.42,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-17_18-01-47__retour__route1",
+          "run": "2026-06-17_18-01-47",
+          "trip": "retour",
+          "time_minutes": 25.68,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-17_20-29-39__retour__route1",
+          "run": "2026-06-17_20-29-39",
+          "trip": "retour",
+          "time_minutes": 25.02,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-17_22-21-03__retour__route1",
+          "run": "2026-06-17_22-21-03",
+          "trip": "retour",
+          "time_minutes": 25.13,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-17_23-54-52__retour__route1",
+          "run": "2026-06-17_23-54-52",
+          "trip": "retour",
+          "time_minutes": 25.58,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-18_02-44-31__retour__route1",
+          "run": "2026-06-18_02-44-31",
+          "trip": "retour",
+          "time_minutes": 25.1,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-18_07-20-09__retour__route1",
+          "run": "2026-06-18_07-20-09",
+          "trip": "retour",
+          "time_minutes": 29.5,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-18_11-34-31__retour__route1",
+          "run": "2026-06-18_11-34-31",
+          "trip": "retour",
+          "time_minutes": 27.27,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-18_14-11-28__retour__route1",
+          "run": "2026-06-18_14-11-28",
+          "trip": "retour",
+          "time_minutes": 33.68,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-18_14-34-23__retour__route1",
+          "run": "2026-06-18_14-34-23",
+          "trip": "retour",
+          "time_minutes": 38.82,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-18_17-47-59__retour__route1",
+          "run": "2026-06-18_17-47-59",
+          "trip": "retour",
+          "time_minutes": 26.47,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-18_20-12-45__retour__route1",
+          "run": "2026-06-18_20-12-45",
+          "trip": "retour",
+          "time_minutes": 24.57,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-18_22-25-38__retour__route1",
+          "run": "2026-06-18_22-25-38",
+          "trip": "retour",
+          "time_minutes": 23.97,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-19_00-07-53__retour__route1",
+          "run": "2026-06-19_00-07-53",
+          "trip": "retour",
+          "time_minutes": 26.05,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-19_05-22-46__retour__route1",
+          "run": "2026-06-19_05-22-46",
+          "trip": "retour",
+          "time_minutes": 27.23,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-19_09-57-30__retour__route1",
+          "run": "2026-06-19_09-57-30",
+          "trip": "retour",
+          "time_minutes": 29.62,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-19_16-20-55__retour__route1",
+          "run": "2026-06-19_16-20-55",
+          "trip": "retour",
+          "time_minutes": 38.9,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-19_18-14-19__retour__route1",
+          "run": "2026-06-19_18-14-19",
+          "trip": "retour",
+          "time_minutes": 26.9,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-19_20-04-17__retour__route1",
+          "run": "2026-06-19_20-04-17",
+          "trip": "retour",
+          "time_minutes": 24.52,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-19_21-20-50__retour__route1",
+          "run": "2026-06-19_21-20-50",
+          "trip": "retour",
+          "time_minutes": 24.8,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-19_22-29-45__retour__route1",
+          "run": "2026-06-19_22-29-45",
+          "trip": "retour",
+          "time_minutes": 24.2,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-19_23-37-21__retour__route1",
+          "run": "2026-06-19_23-37-21",
+          "trip": "retour",
+          "time_minutes": 25.9,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-20_01-51-13__retour__route1",
+          "run": "2026-06-20_01-51-13",
+          "trip": "retour",
+          "time_minutes": 23.75,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-20_06-12-54__retour__route1",
+          "run": "2026-06-20_06-12-54",
+          "trip": "retour",
+          "time_minutes": 24.25,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-20_09-41-28__retour__route1",
+          "run": "2026-06-20_09-41-28",
+          "trip": "retour",
+          "time_minutes": 28.75,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-20_11-33-49__retour__route1",
+          "run": "2026-06-20_11-33-49",
+          "trip": "retour",
+          "time_minutes": 25.62,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-20_13-12-07__retour__route1",
+          "run": "2026-06-20_13-12-07",
+          "trip": "retour",
+          "time_minutes": 25.78,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-20_15-13-54__retour__route1",
+          "run": "2026-06-20_15-13-54",
+          "trip": "retour",
+          "time_minutes": 25.92,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-20_16-51-21__retour__route1",
+          "run": "2026-06-20_16-51-21",
+          "trip": "retour",
+          "time_minutes": 25.48,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-20_18-05-50__retour__route1",
+          "run": "2026-06-20_18-05-50",
+          "trip": "retour",
+          "time_minutes": 24.82,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-20_19-54-35__retour__route1",
+          "run": "2026-06-20_19-54-35",
+          "trip": "retour",
+          "time_minutes": 24.83,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-20_21-05-54__retour__route1",
+          "run": "2026-06-20_21-05-54",
+          "trip": "retour",
+          "time_minutes": 25.3,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-20_22-21-51__retour__route1",
+          "run": "2026-06-20_22-21-51",
+          "trip": "retour",
+          "time_minutes": 25.7,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-20_23-42-01__retour__route1",
+          "run": "2026-06-20_23-42-01",
+          "trip": "retour",
+          "time_minutes": 24.92,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-21_02-05-22__retour__route1",
+          "run": "2026-06-21_02-05-22",
+          "trip": "retour",
+          "time_minutes": 24.62,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-21_07-05-56__retour__route1",
+          "run": "2026-06-21_07-05-56",
+          "trip": "retour",
+          "time_minutes": 24.27,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-21_10-45-09__retour__route1",
+          "run": "2026-06-21_10-45-09",
+          "trip": "retour",
+          "time_minutes": 25.05,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-21_12-30-53__retour__route1",
+          "run": "2026-06-21_12-30-53",
+          "trip": "retour",
+          "time_minutes": 24.73,
+          "distance_km": 18.42
+        },
+        {
+          "id": "2026-06-21_15-01-25__retour__route1",
+          "run": "2026-06-21_15-01-25",
+          "trip": "retour",
+          "time_minutes": 24.88,
+          "distance_km": 18.42
         }
       ]
     },
     "group_04": {
       "group_key": "group_04",
-      "user_name": "Aller insertion a grand frais",
-      "direction": "aller",
-      "notes": "",
-      "representative_coords": [
-        [
-          48.65878602,
-          2.23522776
-        ],
-        [
-          48.65973239,
-          2.23475609
-        ],
-        [
-          48.66005210835585,
-          2.2356915643585964
-        ],
-        [
-          48.66046336353771,
-          2.2363303196877915
-        ],
-        [
-          48.66070092807443,
-          2.236459996398541
-        ],
-        [
-          48.660887002224,
-          2.2351392262139
-        ],
-        [
-          48.66102135422,
-          2.2350553862888
-        ],
-        [
-          48.660907316864,
-          2.2348427674463
-        ],
-        [
-          48.660882434935104,
-          2.2345525962258046
-        ],
-        [
-          48.66089511841905,
-          2.234323738880662
-        ],
-        [
-          48.661061830624575,
-          2.2324732393028266
-        ],
-        [
-          48.66107692794378,
-          2.23229979441803
-        ],
-        [
-          48.661099237935154,
-          2.2320729876721193
-        ],
-        [
-          48.66120076394701,
-          2.230850209940567
-        ],
-        [
-          48.661287793632994,
-          2.230429142713761
-        ],
-        [
-          48.66161622735748,
-          2.229578018282757
-        ],
-        [
-          48.66174047513674,
-          2.228314641401672
-        ],
-        [
-          48.66152931913008,
-          2.226986072516958
-        ],
-        [
-          48.66104396744688,
-          2.2247231505964478
-        ],
-        [
-          48.6609753207931,
-          2.2244004543791096
-        ],
-        [
-          48.662706720812174,
-          2.2183967909771822
-        ],
-        [
-          48.663440571286465,
-          2.216851395793267
-        ],
-        [
-          48.66377246900895,
-          2.2162139819664244
-        ],
-        [
-          48.664120732037645,
-          2.2156286314257874
-        ],
-        [
-          48.66440930908259,
-          2.2155205547509254
-        ],
-        [
-          48.66456148396114,
-          2.215179541768391
-        ],
-        [
-          48.664486621223276,
-          2.214659750465913
-        ],
-        [
-          48.66466869982186,
-          2.2135771440967487
-        ],
-        [
-          48.66484521771217,
-          2.213014252963399
-        ],
-        [
-          48.6651847309813,
-          2.2118869398158605
-        ],
-        [
-          48.66621753582057,
-          2.2085267290824704
-        ],
-        [
-          48.666939669576436,
-          2.205115407705479
-        ],
-        [
-          48.667560714190245,
-          2.199843747492151
-        ],
-        [
-          48.66769298969046,
-          2.19826768942186
-        ],
-        [
-          48.667807237272285,
-          2.1973715425139
-        ],
-        [
-          48.6678113950398,
-          2.1970523081630975
-        ],
-        [
-          48.66784432705885,
-          2.196927028210265
-        ],
-        [
-          48.66856745160063,
-          2.1963680951174833
-        ],
-        [
-          48.66937716368255,
-          2.195956044156958
-        ],
-        [
-          48.66981279407926,
-          2.1957343553054254
-        ],
-        [
-          48.6701132,
-          2.19558148
-        ],
-        [
-          48.67029145,
-          2.19549527
-        ],
-        [
-          48.67171173107601,
-          2.1947917532057772
-        ],
-        [
-          48.67269845947937,
-          2.1945864302597258
-        ],
-        [
-          48.67374993427307,
-          2.1948661783758823
-        ],
-        [
-          48.673910384144456,
-          2.195053553230854
-        ],
-        [
-          48.67519122446532,
-          2.1946149900048266
-        ],
-        [
-          48.67563492346964,
-          2.19435485730606
-        ],
-        [
-          48.67587496870001,
-          2.1944774326276373
-        ],
-        [
-          48.67632925655284,
-          2.1941206988286366
-        ],
-        [
-          48.676294720193,
-          2.192913704772
-        ],
-        [
-          48.67680769000302,
-          2.1922295385636144
-        ],
-        [
-          48.678675482271,
-          2.1912347972389
-        ],
-        [
-          48.681798570368,
-          2.1896467059851
-        ],
-        [
-          48.68359954119309,
-          2.1887698471546564
-        ],
-        [
-          48.68443264756686,
-          2.188622911184781
-        ],
-        [
-          48.684512280004235,
-          2.1892192860227455
-        ],
-        [
-          48.68455638250058,
-          2.189799678615447
-        ],
-        [
-          48.68458719335653,
-          2.1902525229378322
-        ],
-        [
-          48.68492541586423,
-          2.1903705401344364
-        ],
-        [
-          48.68886255182115,
-          2.191164542184294
-        ],
-        [
-          48.69396058875544,
-          2.192694373016504
-        ],
-        [
-          48.694558611979794,
-          2.1926726208667753
-        ],
-        [
-          48.700172706273555,
-          2.1926776718238536
-        ],
-        [
-          48.70076117987442,
-          2.192791899874583
-        ],
-        [
-          48.70298386094601,
-          2.1931547967459104
-        ],
-        [
-          48.70619397539799,
-          2.1919776570777887
-        ],
-        [
-          48.70758084505218,
-          2.190562379336245
-        ],
-        [
-          48.70867169386048,
-          2.1893840171568772
-        ],
-        [
-          48.715338895615076,
-          2.173703119049072
-        ],
-        [
-          48.717196,
-          2.171409
-        ],
-        [
-          48.72116396240136,
-          2.1688912955325312
-        ],
-        [
-          48.72379383537529,
-          2.1674106947746288
-        ],
-        [
-          48.724808325269734,
-          2.1668082016593946
-        ],
-        [
-          48.726152948457305,
-          2.166240184443543
-        ],
-        [
-          48.726615964651394,
-          2.1660836360516833
-        ],
-        [
-          48.7282777653082,
-          2.166943406548979
-        ],
-        [
-          48.728296723427874,
-          2.1674829169546683
-        ],
-        [
-          48.728534389839645,
-          2.1676037384809694
-        ],
-        [
-          48.72876231476918,
-          2.1672297574240234
-        ],
-        [
-          48.72917854031889,
-          2.1662807931970427
-        ],
-        [
-          48.72923091315962,
-          2.166067597438647
-        ],
-        [
-          48.7293905853831,
-          2.165343299859613
-        ],
-        [
-          48.72954111627977,
-          2.164719219023358
-        ],
-        [
-          48.72994549066685,
-          2.163044311323003
-        ],
-        [
-          48.73010534494696,
-          2.162373583085818
-        ],
-        [
-          48.730906018146555,
-          2.158634966201539
-        ],
-        [
-          48.73062943945756,
-          2.1506756354122265
-        ],
-        [
-          48.73020845450371,
-          2.1483300978400597
-        ],
-        [
-          48.729659394687346,
-          2.1457982082188676
-        ],
-        [
-          48.729492151101354,
-          2.144920400764476
-        ],
-        [
-          48.72947034652613,
-          2.144799898903095
-        ],
-        [
-          48.72926193335153,
-          2.1435284989656562
-        ],
-        [
-          48.729081725763166,
-          2.1399254871264803
-        ],
-        [
-          48.7290450028606,
-          2.137942959157943
-        ],
-        [
-          48.7290176500334,
-          2.1317702890262358
-        ],
-        [
-          48.7291084089986,
-          2.13073589138515
-        ],
-        [
-          48.72932143948191,
-          2.128754776268975
-        ],
-        [
-          48.72956709799277,
-          2.1279832450684277
-        ],
-        [
-          48.729778503211534,
-          2.127658152187574
-        ],
-        [
-          48.729740528151865,
-          2.127256469650745
-        ],
-        [
-          48.72969372741727,
-          2.127170282291195
-        ],
-        [
-          48.729722521882245,
-          2.126369704006917
-        ],
-        [
-          48.73197768396419,
-          2.11079298
-        ],
-        [
-          48.73197246907862,
-          2.107789604351023
-        ],
-        [
-          48.73229788432778,
-          2.105924629627665
-        ],
-        [
-          48.73237370524199,
-          2.1056799970255184
-        ],
-        [
-          48.73271918523953,
-          2.1046377429765237
-        ],
-        [
-          48.732975829432995,
-          2.103727222762504
-        ],
-        [
-          48.73303890579663,
-          2.1017461302654006
-        ],
-        [
-          48.73367734472203,
-          2.0997207475430106
-        ],
-        [
-          48.734479901857,
-          2.097652125921
-        ],
-        [
-          48.7348676807871,
-          2.0972436689833143
-        ],
-        [
-          48.73523080031378,
-          2.096979713844195
-        ],
-        [
-          48.73533939710542,
-          2.0969311404329036
-        ],
-        [
-          48.73658693446687,
-          2.096982338640609
-        ],
-        [
-          48.73920033130977,
-          2.0974491004218128
-        ],
-        [
-          48.74015417317791,
-          2.0971964614128935
-        ],
-        [
-          48.74036286551572,
-          2.09727582841698
-        ],
-        [
-          48.74053191707161,
-          2.097097922531831
-        ],
-        [
-          48.740569109913054,
-          2.096906611508046
-        ],
-        [
-          48.742214958990594,
-          2.0933921091232315
-        ],
-        [
-          48.74540915005917,
-          2.0827644258176217
-        ],
-        [
-          48.74554977740604,
-          2.082326776122523
-        ],
-        [
-          48.745365797677046,
-          2.082175247041858
-        ],
-        [
-          48.74526994789943,
-          2.08222484539587
-        ],
-        [
-          48.74518387847427,
-          2.082495017158481
-        ],
-        [
-          48.745239069211365,
-          2.0826788099977356
-        ],
-        [
-          48.74262630372895,
-          2.0918291241829543
-        ],
-        [
-          48.74206991904457,
-          2.0933062784347993
-        ]
-      ],
-      "representative_id": "2026-06-14_17-16-34__aller__route0",
-      "stats": {
-        "occurrences": 7,
-        "time_avg_min": 25.75,
-        "time_min_min": 25.4,
-        "time_max_min": 26.72,
-        "distance_avg_km": 19.85
-      },
-      "preview_png": "analysis/route_groups/group_04_preview.png",
-      "preview_html": "analysis/route_groups/group_04_preview.html",
-      "members": [
-        {
-          "id": "2026-06-14_17-16-34__aller__route0",
-          "run": "2026-06-14_17-16-34",
-          "trip": "aller",
-          "time_minutes": 26.72,
-          "distance_km": 19.85
-        },
-        {
-          "id": "2026-06-14_17-18-45__aller__route0",
-          "run": "2026-06-14_17-18-45",
-          "trip": "aller",
-          "time_minutes": 25.63,
-          "distance_km": 19.85
-        },
-        {
-          "id": "2026-06-14_17-22-31__aller__route0",
-          "run": "2026-06-14_17-22-31",
-          "trip": "aller",
-          "time_minutes": 25.5,
-          "distance_km": 19.85
-        },
-        {
-          "id": "2026-06-14_17-24-06__aller__route0",
-          "run": "2026-06-14_17-24-06",
-          "trip": "aller",
-          "time_minutes": 25.52,
-          "distance_km": 19.85
-        },
-        {
-          "id": "2026-06-14_17-25-31__aller__route0",
-          "run": "2026-06-14_17-25-31",
-          "trip": "aller",
-          "time_minutes": 25.63,
-          "distance_km": 19.85
-        },
-        {
-          "id": "2026-06-14_17-27-07__aller__route0",
-          "run": "2026-06-14_17-27-07",
-          "trip": "aller",
-          "time_minutes": 25.88,
-          "distance_km": 19.85
-        },
-        {
-          "id": "2026-06-14_17-36-25__aller__route0",
-          "run": "2026-06-14_17-36-25",
-          "trip": "aller",
-          "time_minutes": 25.4,
-          "distance_km": 19.85
-        }
-      ]
-    },
-    "group_05": {
-      "group_key": "group_05",
-      "user_name": "Aller detour par toussus",
+      "user_name": "Aller detour par Toussus",
       "direction": "aller",
       "notes": "",
       "representative_coords": [
@@ -3037,14 +3848,14 @@
       ],
       "representative_id": "2026-06-13_16-51-37____route0",
       "stats": {
-        "occurrences": 3,
-        "time_avg_min": 24.2,
+        "occurrences": 11,
+        "time_avg_min": 27.62,
         "time_min_min": 23.0,
-        "time_max_min": 26.42,
+        "time_max_min": 37.03,
         "distance_avg_km": 21.11
       },
-      "preview_png": "analysis/route_groups/group_05_preview.png",
-      "preview_html": "analysis/route_groups/group_05_preview.html",
+      "preview_png": "analysis/route_groups/group_04_preview.png",
+      "preview_html": "analysis/route_groups/group_04_preview.html",
       "members": [
         {
           "id": "2026-06-13_16-51-37____route0",
@@ -3066,6 +3877,3098 @@
           "trip": "aller",
           "time_minutes": 26.42,
           "distance_km": 21.11
+        },
+        {
+          "id": "2026-06-15_05-26-41__aller__route0",
+          "run": "2026-06-15_05-26-41",
+          "trip": "aller",
+          "time_minutes": 32.43,
+          "distance_km": 21.11
+        },
+        {
+          "id": "2026-06-15_16-26-55__aller__route0",
+          "run": "2026-06-15_16-26-55",
+          "trip": "aller",
+          "time_minutes": 29.87,
+          "distance_km": 21.11
+        },
+        {
+          "id": "2026-06-16_05-31-06__aller__route0",
+          "run": "2026-06-16_05-31-06",
+          "trip": "aller",
+          "time_minutes": 37.03,
+          "distance_km": 21.11
+        },
+        {
+          "id": "2026-06-16_15-28-58__aller__route0",
+          "run": "2026-06-16_15-28-58",
+          "trip": "aller",
+          "time_minutes": 25.88,
+          "distance_km": 21.11
+        },
+        {
+          "id": "2026-06-17_15-24-32__aller__route0",
+          "run": "2026-06-17_15-24-32",
+          "trip": "aller",
+          "time_minutes": 26.28,
+          "distance_km": 21.11
+        },
+        {
+          "id": "2026-06-18_07-20-09__aller__route0",
+          "run": "2026-06-18_07-20-09",
+          "trip": "aller",
+          "time_minutes": 31.12,
+          "distance_km": 21.11
+        },
+        {
+          "id": "2026-06-18_14-34-23__aller__route0",
+          "run": "2026-06-18_14-34-23",
+          "trip": "aller",
+          "time_minutes": 24.0,
+          "distance_km": 21.11
+        },
+        {
+          "id": "2026-06-19_16-20-55__aller__route0",
+          "run": "2026-06-19_16-20-55",
+          "trip": "aller",
+          "time_minutes": 24.58,
+          "distance_km": 21.11
+        }
+      ]
+    },
+    "group_05": {
+      "group_key": "group_05",
+      "user_name": "Aller insertion a Grand frais",
+      "direction": "aller",
+      "notes": "",
+      "representative_coords": [
+        [
+          48.65878602,
+          2.23522776
+        ],
+        [
+          48.65973239,
+          2.23475609
+        ],
+        [
+          48.66005210835585,
+          2.2356915643585964
+        ],
+        [
+          48.66046336353771,
+          2.2363303196877915
+        ],
+        [
+          48.66070092807443,
+          2.236459996398541
+        ],
+        [
+          48.660887002224,
+          2.2351392262139
+        ],
+        [
+          48.66102135422,
+          2.2350553862888
+        ],
+        [
+          48.660907316864,
+          2.2348427674463
+        ],
+        [
+          48.660882434935104,
+          2.2345525962258046
+        ],
+        [
+          48.66089511841905,
+          2.234323738880662
+        ],
+        [
+          48.661061830624575,
+          2.2324732393028266
+        ],
+        [
+          48.66107692794378,
+          2.23229979441803
+        ],
+        [
+          48.661099237935154,
+          2.2320729876721193
+        ],
+        [
+          48.66120076394701,
+          2.230850209940567
+        ],
+        [
+          48.661287793632994,
+          2.230429142713761
+        ],
+        [
+          48.66161622735748,
+          2.229578018282757
+        ],
+        [
+          48.66174047513674,
+          2.228314641401672
+        ],
+        [
+          48.66152931913008,
+          2.226986072516958
+        ],
+        [
+          48.66104396744688,
+          2.2247231505964478
+        ],
+        [
+          48.6609753207931,
+          2.2244004543791096
+        ],
+        [
+          48.662706720812174,
+          2.2183967909771822
+        ],
+        [
+          48.663440571286465,
+          2.216851395793267
+        ],
+        [
+          48.66377246900895,
+          2.2162139819664244
+        ],
+        [
+          48.664120732037645,
+          2.2156286314257874
+        ],
+        [
+          48.66440930908259,
+          2.2155205547509254
+        ],
+        [
+          48.66456148396114,
+          2.215179541768391
+        ],
+        [
+          48.664486621223276,
+          2.214659750465913
+        ],
+        [
+          48.66466869982186,
+          2.2135771440967487
+        ],
+        [
+          48.66484521771217,
+          2.213014252963399
+        ],
+        [
+          48.6651847309813,
+          2.2118869398158605
+        ],
+        [
+          48.66621753582057,
+          2.2085267290824704
+        ],
+        [
+          48.666939669576436,
+          2.205115407705479
+        ],
+        [
+          48.667560714190245,
+          2.199843747492151
+        ],
+        [
+          48.66769298969046,
+          2.19826768942186
+        ],
+        [
+          48.667807237272285,
+          2.1973715425139
+        ],
+        [
+          48.6678113950398,
+          2.1970523081630975
+        ],
+        [
+          48.66784432705885,
+          2.196927028210265
+        ],
+        [
+          48.66856745160063,
+          2.1963680951174833
+        ],
+        [
+          48.66937716368255,
+          2.195956044156958
+        ],
+        [
+          48.66981279407926,
+          2.1957343553054254
+        ],
+        [
+          48.6701132,
+          2.19558148
+        ],
+        [
+          48.67029145,
+          2.19549527
+        ],
+        [
+          48.67171173107601,
+          2.1947917532057772
+        ],
+        [
+          48.67269845947937,
+          2.1945864302597258
+        ],
+        [
+          48.67374993427307,
+          2.1948661783758823
+        ],
+        [
+          48.673910384144456,
+          2.195053553230854
+        ],
+        [
+          48.67519122446532,
+          2.1946149900048266
+        ],
+        [
+          48.67563492346964,
+          2.19435485730606
+        ],
+        [
+          48.67587496870001,
+          2.1944774326276373
+        ],
+        [
+          48.67632925655284,
+          2.1941206988286366
+        ],
+        [
+          48.676294720193,
+          2.192913704772
+        ],
+        [
+          48.67680769000302,
+          2.1922295385636144
+        ],
+        [
+          48.678675482271,
+          2.1912347972389
+        ],
+        [
+          48.681798570368,
+          2.1896467059851
+        ],
+        [
+          48.68359954119309,
+          2.1887698471546564
+        ],
+        [
+          48.68443264756686,
+          2.188622911184781
+        ],
+        [
+          48.684512280004235,
+          2.1892192860227455
+        ],
+        [
+          48.68455638250058,
+          2.189799678615447
+        ],
+        [
+          48.68458719335653,
+          2.1902525229378322
+        ],
+        [
+          48.68492541586423,
+          2.1903705401344364
+        ],
+        [
+          48.68886255182115,
+          2.191164542184294
+        ],
+        [
+          48.69396058875544,
+          2.192694373016504
+        ],
+        [
+          48.694558611979794,
+          2.1926726208667753
+        ],
+        [
+          48.700172706273555,
+          2.1926776718238536
+        ],
+        [
+          48.70076117987442,
+          2.192791899874583
+        ],
+        [
+          48.70298386094601,
+          2.1931547967459104
+        ],
+        [
+          48.70619397539799,
+          2.1919776570777887
+        ],
+        [
+          48.70758084505218,
+          2.190562379336245
+        ],
+        [
+          48.70867169386048,
+          2.1893840171568772
+        ],
+        [
+          48.715338895615076,
+          2.173703119049072
+        ],
+        [
+          48.717196,
+          2.171409
+        ],
+        [
+          48.72116396240136,
+          2.1688912955325312
+        ],
+        [
+          48.72379383537529,
+          2.1674106947746288
+        ],
+        [
+          48.724808325269734,
+          2.1668082016593946
+        ],
+        [
+          48.726152948457305,
+          2.166240184443543
+        ],
+        [
+          48.726615964651394,
+          2.1660836360516833
+        ],
+        [
+          48.7282777653082,
+          2.166943406548979
+        ],
+        [
+          48.728296723427874,
+          2.1674829169546683
+        ],
+        [
+          48.728534389839645,
+          2.1676037384809694
+        ],
+        [
+          48.72876231476918,
+          2.1672297574240234
+        ],
+        [
+          48.72917854031889,
+          2.1662807931970427
+        ],
+        [
+          48.72923091315962,
+          2.166067597438647
+        ],
+        [
+          48.7293905853831,
+          2.165343299859613
+        ],
+        [
+          48.72954111627977,
+          2.164719219023358
+        ],
+        [
+          48.72994549066685,
+          2.163044311323003
+        ],
+        [
+          48.73010534494696,
+          2.162373583085818
+        ],
+        [
+          48.730906018146555,
+          2.158634966201539
+        ],
+        [
+          48.73062943945756,
+          2.1506756354122265
+        ],
+        [
+          48.73020845450371,
+          2.1483300978400597
+        ],
+        [
+          48.729659394687346,
+          2.1457982082188676
+        ],
+        [
+          48.729492151101354,
+          2.144920400764476
+        ],
+        [
+          48.72947034652613,
+          2.144799898903095
+        ],
+        [
+          48.72926193335153,
+          2.1435284989656562
+        ],
+        [
+          48.729081725763166,
+          2.1399254871264803
+        ],
+        [
+          48.7290450028606,
+          2.137942959157943
+        ],
+        [
+          48.7290176500334,
+          2.1317702890262358
+        ],
+        [
+          48.7291084089986,
+          2.13073589138515
+        ],
+        [
+          48.72932143948191,
+          2.128754776268975
+        ],
+        [
+          48.72956709799277,
+          2.1279832450684277
+        ],
+        [
+          48.729778503211534,
+          2.127658152187574
+        ],
+        [
+          48.729740528151865,
+          2.127256469650745
+        ],
+        [
+          48.72969372741727,
+          2.127170282291195
+        ],
+        [
+          48.729722521882245,
+          2.126369704006917
+        ],
+        [
+          48.73197768396419,
+          2.11079298
+        ],
+        [
+          48.73197246907862,
+          2.107789604351023
+        ],
+        [
+          48.73229788432778,
+          2.105924629627665
+        ],
+        [
+          48.73237370524199,
+          2.1056799970255184
+        ],
+        [
+          48.73271918523953,
+          2.1046377429765237
+        ],
+        [
+          48.732975829432995,
+          2.103727222762504
+        ],
+        [
+          48.73303890579663,
+          2.1017461302654006
+        ],
+        [
+          48.73367734472203,
+          2.0997207475430106
+        ],
+        [
+          48.734479901857,
+          2.097652125921
+        ],
+        [
+          48.7348676807871,
+          2.0972436689833143
+        ],
+        [
+          48.73523080031378,
+          2.096979713844195
+        ],
+        [
+          48.73533939710542,
+          2.0969311404329036
+        ],
+        [
+          48.73658693446687,
+          2.096982338640609
+        ],
+        [
+          48.73920033130977,
+          2.0974491004218128
+        ],
+        [
+          48.74015417317791,
+          2.0971964614128935
+        ],
+        [
+          48.74036286551572,
+          2.09727582841698
+        ],
+        [
+          48.74053191707161,
+          2.097097922531831
+        ],
+        [
+          48.740569109913054,
+          2.096906611508046
+        ],
+        [
+          48.742214958990594,
+          2.0933921091232315
+        ],
+        [
+          48.74540915005917,
+          2.0827644258176217
+        ],
+        [
+          48.74554977740604,
+          2.082326776122523
+        ],
+        [
+          48.745365797677046,
+          2.082175247041858
+        ],
+        [
+          48.74526994789943,
+          2.08222484539587
+        ],
+        [
+          48.74518387847427,
+          2.082495017158481
+        ],
+        [
+          48.745239069211365,
+          2.0826788099977356
+        ],
+        [
+          48.74262630372895,
+          2.0918291241829543
+        ],
+        [
+          48.74206991904457,
+          2.0933062784347993
+        ]
+      ],
+      "representative_id": "2026-06-14_15-56-25__aller__route0",
+      "stats": {
+        "occurrences": 11,
+        "time_avg_min": 26.12,
+        "time_min_min": 25.4,
+        "time_max_min": 27.77,
+        "distance_avg_km": 19.85
+      },
+      "preview_png": "analysis/route_groups/group_05_preview.png",
+      "preview_html": "analysis/route_groups/group_05_preview.html",
+      "members": [
+        {
+          "id": "2026-06-14_15-56-25__aller__route0",
+          "run": "2026-06-14_15-56-25",
+          "trip": "aller",
+          "time_minutes": 27.4,
+          "distance_km": 19.85
+        },
+        {
+          "id": "2026-06-14_17-12-51__aller__route0",
+          "run": "2026-06-14_17-12-51",
+          "trip": "aller",
+          "time_minutes": 26.12,
+          "distance_km": 19.85
+        },
+        {
+          "id": "2026-06-14_17-16-34__aller__route0",
+          "run": "2026-06-14_17-16-34",
+          "trip": "aller",
+          "time_minutes": 26.72,
+          "distance_km": 19.85
+        },
+        {
+          "id": "2026-06-14_17-18-45__aller__route0",
+          "run": "2026-06-14_17-18-45",
+          "trip": "aller",
+          "time_minutes": 25.63,
+          "distance_km": 19.85
+        },
+        {
+          "id": "2026-06-14_17-22-31__aller__route0",
+          "run": "2026-06-14_17-22-31",
+          "trip": "aller",
+          "time_minutes": 25.5,
+          "distance_km": 19.85
+        },
+        {
+          "id": "2026-06-14_17-24-06__aller__route0",
+          "run": "2026-06-14_17-24-06",
+          "trip": "aller",
+          "time_minutes": 25.52,
+          "distance_km": 19.85
+        },
+        {
+          "id": "2026-06-14_17-25-31__aller__route0",
+          "run": "2026-06-14_17-25-31",
+          "trip": "aller",
+          "time_minutes": 25.63,
+          "distance_km": 19.85
+        },
+        {
+          "id": "2026-06-14_17-27-07__aller__route0",
+          "run": "2026-06-14_17-27-07",
+          "trip": "aller",
+          "time_minutes": 25.88,
+          "distance_km": 19.85
+        },
+        {
+          "id": "2026-06-14_17-36-25__aller__route0",
+          "run": "2026-06-14_17-36-25",
+          "trip": "aller",
+          "time_minutes": 25.4,
+          "distance_km": 19.85
+        },
+        {
+          "id": "2026-06-14_17-47-29__aller__route0",
+          "run": "2026-06-14_17-47-29",
+          "trip": "aller",
+          "time_minutes": 25.8,
+          "distance_km": 19.85
+        },
+        {
+          "id": "2026-06-14_17-59-37__aller__route0",
+          "run": "2026-06-14_17-59-37",
+          "trip": "aller",
+          "time_minutes": 27.77,
+          "distance_km": 19.85
+        }
+      ]
+    },
+    "group_06": {
+      "group_key": "group_06",
+      "user_name": "Aller detour par Toussus et insertion a Grand frais",
+      "direction": "aller",
+      "notes": "",
+      "representative_coords": [
+        [
+          48.65878602,
+          2.23522776
+        ],
+        [
+          48.65973239,
+          2.23475609
+        ],
+        [
+          48.66005210835585,
+          2.2356915643585964
+        ],
+        [
+          48.66046336353771,
+          2.2363303196877915
+        ],
+        [
+          48.66070092807443,
+          2.236459996398541
+        ],
+        [
+          48.660887002224,
+          2.2351392262139
+        ],
+        [
+          48.66102135422,
+          2.2350553862888
+        ],
+        [
+          48.660907316864,
+          2.2348427674463
+        ],
+        [
+          48.660882434935104,
+          2.2345525962258046
+        ],
+        [
+          48.66089511841905,
+          2.234323738880662
+        ],
+        [
+          48.661061830624575,
+          2.2324732393028266
+        ],
+        [
+          48.66107692794378,
+          2.23229979441803
+        ],
+        [
+          48.661099237935154,
+          2.2320729876721193
+        ],
+        [
+          48.66120076394701,
+          2.230850209940567
+        ],
+        [
+          48.661287793632994,
+          2.230429142713761
+        ],
+        [
+          48.66161622735748,
+          2.229578018282757
+        ],
+        [
+          48.66174047513674,
+          2.228314641401672
+        ],
+        [
+          48.66152931913008,
+          2.226986072516958
+        ],
+        [
+          48.66104396744688,
+          2.2247231505964478
+        ],
+        [
+          48.6609753207931,
+          2.2244004543791096
+        ],
+        [
+          48.662706720812174,
+          2.2183967909771822
+        ],
+        [
+          48.663440571286465,
+          2.216851395793267
+        ],
+        [
+          48.66377246900895,
+          2.2162139819664244
+        ],
+        [
+          48.664120732037645,
+          2.2156286314257874
+        ],
+        [
+          48.66440930908259,
+          2.2155205547509254
+        ],
+        [
+          48.66456148396114,
+          2.215179541768391
+        ],
+        [
+          48.664486621223276,
+          2.214659750465913
+        ],
+        [
+          48.66466869982186,
+          2.2135771440967487
+        ],
+        [
+          48.66484521771217,
+          2.213014252963399
+        ],
+        [
+          48.6651847309813,
+          2.2118869398158605
+        ],
+        [
+          48.66621753582057,
+          2.2085267290824704
+        ],
+        [
+          48.666939669576436,
+          2.205115407705479
+        ],
+        [
+          48.667560714190245,
+          2.199843747492151
+        ],
+        [
+          48.66769298969046,
+          2.19826768942186
+        ],
+        [
+          48.667807237272285,
+          2.1973715425139
+        ],
+        [
+          48.6678113950398,
+          2.1970523081630975
+        ],
+        [
+          48.66784432705885,
+          2.196927028210265
+        ],
+        [
+          48.66856745160063,
+          2.1963680951174833
+        ],
+        [
+          48.66937716368255,
+          2.195956044156958
+        ],
+        [
+          48.66981279407926,
+          2.1957343553054254
+        ],
+        [
+          48.6701132,
+          2.19558148
+        ],
+        [
+          48.67029145,
+          2.19549527
+        ],
+        [
+          48.67171173107601,
+          2.1947917532057772
+        ],
+        [
+          48.67269845947937,
+          2.1945864302597258
+        ],
+        [
+          48.67374993427307,
+          2.1948661783758823
+        ],
+        [
+          48.673910384144456,
+          2.195053553230854
+        ],
+        [
+          48.67519122446532,
+          2.1946149900048266
+        ],
+        [
+          48.67563492346964,
+          2.19435485730606
+        ],
+        [
+          48.67587496870001,
+          2.1944774326276373
+        ],
+        [
+          48.67632925655284,
+          2.1941206988286366
+        ],
+        [
+          48.676294720193,
+          2.192913704772
+        ],
+        [
+          48.67680769000302,
+          2.1922295385636144
+        ],
+        [
+          48.678675482271,
+          2.1912347972389
+        ],
+        [
+          48.681798570368,
+          2.1896467059851
+        ],
+        [
+          48.68359954119309,
+          2.1887698471546564
+        ],
+        [
+          48.68443264756686,
+          2.188622911184781
+        ],
+        [
+          48.684512280004235,
+          2.1892192860227455
+        ],
+        [
+          48.68455638250058,
+          2.189799678615447
+        ],
+        [
+          48.68458719335653,
+          2.1902525229378322
+        ],
+        [
+          48.68492541586423,
+          2.1903705401344364
+        ],
+        [
+          48.68886255182115,
+          2.191164542184294
+        ],
+        [
+          48.69396058875544,
+          2.192694373016504
+        ],
+        [
+          48.694558611979794,
+          2.1926726208667753
+        ],
+        [
+          48.700172706273555,
+          2.1926776718238536
+        ],
+        [
+          48.70076117987442,
+          2.192791899874583
+        ],
+        [
+          48.70298386094601,
+          2.1931547967459104
+        ],
+        [
+          48.70619397539799,
+          2.1919776570777887
+        ],
+        [
+          48.70758084505218,
+          2.190562379336245
+        ],
+        [
+          48.70867169386048,
+          2.1893840171568772
+        ],
+        [
+          48.715338895615076,
+          2.173703119049072
+        ],
+        [
+          48.717196,
+          2.171409
+        ],
+        [
+          48.72116396240136,
+          2.1688912955325312
+        ],
+        [
+          48.72379383537529,
+          2.1674106947746288
+        ],
+        [
+          48.724808325269734,
+          2.1668082016593946
+        ],
+        [
+          48.726152948457305,
+          2.166240184443543
+        ],
+        [
+          48.726615964651394,
+          2.1660836360516833
+        ],
+        [
+          48.7282777653082,
+          2.166943406548979
+        ],
+        [
+          48.728296723427874,
+          2.1674829169546683
+        ],
+        [
+          48.728534389839645,
+          2.1676037384809694
+        ],
+        [
+          48.72876231476918,
+          2.1672297574240234
+        ],
+        [
+          48.72917854031889,
+          2.1662807931970427
+        ],
+        [
+          48.72923091315962,
+          2.166067597438647
+        ],
+        [
+          48.7293905853831,
+          2.165343299859613
+        ],
+        [
+          48.72954111627977,
+          2.164719219023358
+        ],
+        [
+          48.72994549066685,
+          2.163044311323003
+        ],
+        [
+          48.73010534494696,
+          2.162373583085818
+        ],
+        [
+          48.730906018146555,
+          2.158634966201539
+        ],
+        [
+          48.73062943945756,
+          2.1506756354122265
+        ],
+        [
+          48.73020845450371,
+          2.1483300978400597
+        ],
+        [
+          48.729659394687346,
+          2.1457982082188676
+        ],
+        [
+          48.729492151101354,
+          2.144920400764476
+        ],
+        [
+          48.72947034652613,
+          2.144799898903095
+        ],
+        [
+          48.72926193335153,
+          2.1435284989656562
+        ],
+        [
+          48.729081725763166,
+          2.1399254871264803
+        ],
+        [
+          48.7290450028606,
+          2.137942959157943
+        ],
+        [
+          48.7290176500334,
+          2.1317702890262358
+        ],
+        [
+          48.7291084089986,
+          2.13073589138515
+        ],
+        [
+          48.72932143948191,
+          2.128754776268975
+        ],
+        [
+          48.72956709799277,
+          2.1279832450684277
+        ],
+        [
+          48.729778503211534,
+          2.127658152187574
+        ],
+        [
+          48.730417759429685,
+          2.1273230264059735
+        ],
+        [
+          48.73052336488362,
+          2.1273115462421592
+        ],
+        [
+          48.731049868629356,
+          2.1272151093535343
+        ],
+        [
+          48.73193316705747,
+          2.1270562231245473
+        ],
+        [
+          48.73768434506148,
+          2.126024236872867
+        ],
+        [
+          48.738970762394985,
+          2.125735489304248
+        ],
+        [
+          48.74080747512043,
+          2.123293762522492
+        ],
+        [
+          48.74151894044208,
+          2.1212657262596206
+        ],
+        [
+          48.74177871694575,
+          2.120668780449035
+        ],
+        [
+          48.74193686993045,
+          2.1203376877143727
+        ],
+        [
+          48.74235440470565,
+          2.1199278531685897
+        ],
+        [
+          48.74248967189683,
+          2.119930441440109
+        ],
+        [
+          48.74268220670612,
+          2.119618412499925
+        ],
+        [
+          48.7426715271374,
+          2.1194139137258525
+        ],
+        [
+          48.74245195433965,
+          2.119152163513123
+        ],
+        [
+          48.74231838983631,
+          2.1191847111141895
+        ],
+        [
+          48.74182189864005,
+          2.1187283623054594
+        ],
+        [
+          48.74037487577711,
+          2.1110442884072502
+        ],
+        [
+          48.74043571025558,
+          2.1103174387845245
+        ],
+        [
+          48.74089760366051,
+          2.110074827446403
+        ],
+        [
+          48.74265893328052,
+          2.110955749644158
+        ],
+        [
+          48.742745396420375,
+          2.1109967872108566
+        ],
+        [
+          48.744179348746,
+          2.1116728782655
+        ],
+        [
+          48.74524409977,
+          2.1116648316384
+        ],
+        [
+          48.74589907601685,
+          2.111812228699179
+        ],
+        [
+          48.7459667362404,
+          2.1119450280376793
+        ],
+        [
+          48.7460298165754,
+          2.1118145689258636
+        ],
+        [
+          48.74600586604985,
+          2.111760349751163
+        ],
+        [
+          48.746110542425036,
+          2.1110244401546967
+        ],
+        [
+          48.746095896661544,
+          2.1095651838407705
+        ],
+        [
+          48.74607118,
+          2.10867827
+        ],
+        [
+          48.74507078099318,
+          2.106420429783968
+        ],
+        [
+          48.7428754789316,
+          2.103486031903167
+        ],
+        [
+          48.74165961274693,
+          2.1017651444021612
+        ],
+        [
+          48.74074239999997,
+          2.09778529441803
+        ],
+        [
+          48.74064249253557,
+          2.0975366632052097
+        ],
+        [
+          48.74053191707161,
+          2.097097922531831
+        ],
+        [
+          48.740569109913054,
+          2.096906611508046
+        ],
+        [
+          48.742214958990594,
+          2.0933921091232315
+        ],
+        [
+          48.74540915005917,
+          2.0827644258176217
+        ],
+        [
+          48.74554977740604,
+          2.082326776122523
+        ],
+        [
+          48.745365797677046,
+          2.082175247041858
+        ],
+        [
+          48.74526994789943,
+          2.08222484539587
+        ],
+        [
+          48.74518387847427,
+          2.082495017158481
+        ],
+        [
+          48.745239069211365,
+          2.0826788099977356
+        ],
+        [
+          48.74262630372895,
+          2.0918291241829543
+        ],
+        [
+          48.74206991904457,
+          2.0933062784347993
+        ]
+      ],
+      "representative_id": "2026-06-14_16-54-31__aller__route0",
+      "stats": {
+        "occurrences": 2,
+        "time_avg_min": 29.86,
+        "time_min_min": 27.07,
+        "time_max_min": 32.65,
+        "distance_avg_km": 21.3
+      },
+      "preview_png": "analysis/route_groups/group_06_preview.png",
+      "preview_html": "analysis/route_groups/group_06_preview.html",
+      "members": [
+        {
+          "id": "2026-06-14_16-54-31__aller__route0",
+          "run": "2026-06-14_16-54-31",
+          "trip": "aller",
+          "time_minutes": 27.07,
+          "distance_km": 21.3
+        },
+        {
+          "id": "2026-06-17_07-13-01__aller__route0",
+          "run": "2026-06-17_07-13-01",
+          "trip": "aller",
+          "time_minutes": 32.65,
+          "distance_km": 21.3
+        }
+      ]
+    },
+    "group_07": {
+      "group_key": "group_07",
+      "user_name": "Retour sortie grand frais puis detour par Villejust",
+      "direction": "retour",
+      "notes": "",
+      "representative_coords": [
+        [
+          48.74104441582053,
+          2.092714179124551
+        ],
+        [
+          48.74206991904457,
+          2.0933062784347993
+        ],
+        [
+          48.74043255405171,
+          2.0965547447831856
+        ],
+        [
+          48.74025995878152,
+          2.0965198476249154
+        ],
+        [
+          48.7400934625438,
+          2.096705765054186
+        ],
+        [
+          48.740063706462045,
+          2.0968319966121967
+        ],
+        [
+          48.73920033130977,
+          2.0974491004218128
+        ],
+        [
+          48.73658693446687,
+          2.096982338640609
+        ],
+        [
+          48.73533939710542,
+          2.0969311404329036
+        ],
+        [
+          48.73523080031378,
+          2.096979713844195
+        ],
+        [
+          48.7348676807871,
+          2.0972436689833143
+        ],
+        [
+          48.734479901857,
+          2.097652125921
+        ],
+        [
+          48.73367734472203,
+          2.0997207475430106
+        ],
+        [
+          48.73303890579663,
+          2.1017461302654006
+        ],
+        [
+          48.732870627352064,
+          2.102600723504979
+        ],
+        [
+          48.73286735724887,
+          2.1036352989686984
+        ],
+        [
+          48.73258716055521,
+          2.104736776371732
+        ],
+        [
+          48.73229788432778,
+          2.105924629627665
+        ],
+        [
+          48.73197246907862,
+          2.107789604351023
+        ],
+        [
+          48.73197768396419,
+          2.11079298
+        ],
+        [
+          48.729722521882245,
+          2.126369704006917
+        ],
+        [
+          48.72943811215648,
+          2.1270370575820468
+        ],
+        [
+          48.729152772222236,
+          2.1274734733633465
+        ],
+        [
+          48.72927951436813,
+          2.127908401735498
+        ],
+        [
+          48.72932143948191,
+          2.128754776268975
+        ],
+        [
+          48.7291084089986,
+          2.13073589138515
+        ],
+        [
+          48.7290176500334,
+          2.1317702890262358
+        ],
+        [
+          48.7290450028606,
+          2.137942959157943
+        ],
+        [
+          48.729081725763166,
+          2.1399254871264803
+        ],
+        [
+          48.72926193335153,
+          2.1435284989656562
+        ],
+        [
+          48.72947034652613,
+          2.144799898903095
+        ],
+        [
+          48.729492151101354,
+          2.144920400764476
+        ],
+        [
+          48.729659394687346,
+          2.1457982082188676
+        ],
+        [
+          48.730095923266006,
+          2.1483325762544467
+        ],
+        [
+          48.73032259362768,
+          2.1495817469780056
+        ],
+        [
+          48.730813162682246,
+          2.158727940011697
+        ],
+        [
+          48.72989272864478,
+          2.1626197926599056
+        ],
+        [
+          48.729852962409176,
+          2.1627700547555064
+        ],
+        [
+          48.72980573617754,
+          2.162940330016903
+        ],
+        [
+          48.728680000855896,
+          2.1647244072061596
+        ],
+        [
+          48.72733943853301,
+          2.165373790329408
+        ],
+        [
+          48.72613226,
+          2.16586618
+        ],
+        [
+          48.7237811763267,
+          2.167145807577974
+        ],
+        [
+          48.72144424,
+          2.16845604
+        ],
+        [
+          48.71766199569942,
+          2.170706690755547
+        ],
+        [
+          48.716909735756914,
+          2.171350157929685
+        ],
+        [
+          48.715212441230946,
+          2.1735910257949818
+        ],
+        [
+          48.7121640626207,
+          2.1828927191316487
+        ],
+        [
+          48.70720916942983,
+          2.1908371233482344
+        ],
+        [
+          48.70296325397458,
+          2.193023976686477
+        ],
+        [
+          48.70075738133628,
+          2.1926445889549258
+        ],
+        [
+          48.69729503647716,
+          2.192217829122864
+        ],
+        [
+          48.69523768898233,
+          2.192400917411776
+        ],
+        [
+          48.68783495162151,
+          2.1904240907726304
+        ],
+        [
+          48.68674854594423,
+          2.18976142555759
+        ],
+        [
+          48.68618035847791,
+          2.189507285815025
+        ],
+        [
+          48.68469018940505,
+          2.1884974231210363
+        ],
+        [
+          48.68456104800365,
+          2.1882500139268504
+        ],
+        [
+          48.68441323998864,
+          2.1883310824631454
+        ],
+        [
+          48.68443264756686,
+          2.188622911184781
+        ],
+        [
+          48.684512280004235,
+          2.1892192860227455
+        ],
+        [
+          48.68455638250058,
+          2.189799678615447
+        ],
+        [
+          48.68458719335653,
+          2.1902525229378322
+        ],
+        [
+          48.68462784999556,
+          2.190680167038157
+        ],
+        [
+          48.68467204820477,
+          2.1910353914950806
+        ],
+        [
+          48.68476671915877,
+          2.1929851324367213
+        ],
+        [
+          48.68469943,
+          2.19406494
+        ],
+        [
+          48.68463118842023,
+          2.1951800225065297
+        ],
+        [
+          48.68447355200689,
+          2.197721810541008
+        ],
+        [
+          48.68445765999999,
+          2.1979780587171933
+        ],
+        [
+          48.68438436129084,
+          2.1991060794257886
+        ],
+        [
+          48.68435442000002,
+          2.199550192327881
+        ],
+        [
+          48.68426241,
+          2.20089145
+        ],
+        [
+          48.68420071,
+          2.20185726
+        ],
+        [
+          48.684137875231876,
+          2.2027537070121532
+        ],
+        [
+          48.684093599680764,
+          2.203633151441387
+        ],
+        [
+          48.6841352189423,
+          2.2042497756372885
+        ],
+        [
+          48.68404368838107,
+          2.2044549314202193
+        ],
+        [
+          48.68397854545206,
+          2.2055152490043906
+        ],
+        [
+          48.68409502960347,
+          2.2059064956871026
+        ],
+        [
+          48.68421802937674,
+          2.205919517480883
+        ],
+        [
+          48.68435549385306,
+          2.205786791291769
+        ],
+        [
+          48.68461312187023,
+          2.205756502726148
+        ],
+        [
+          48.68552000783823,
+          2.2078140883412463
+        ],
+        [
+          48.685940421809846,
+          2.2103063666115728
+        ],
+        [
+          48.68610175314675,
+          2.212927849545206
+        ],
+        [
+          48.68574343526513,
+          2.214889117723541
+        ],
+        [
+          48.68554729238068,
+          2.215828031301463
+        ],
+        [
+          48.685315806661,
+          2.2170013905420363
+        ],
+        [
+          48.685258643902,
+          2.217042230995886
+        ],
+        [
+          48.68517386757575,
+          2.2171707370861666
+        ],
+        [
+          48.68514221516356,
+          2.2172851255634436
+        ],
+        [
+          48.68526930873784,
+          2.2177114039322405
+        ],
+        [
+          48.685456881535686,
+          2.2193116556305355
+        ],
+        [
+          48.68538338653715,
+          2.220687584317296
+        ],
+        [
+          48.68478588716943,
+          2.2226676986595004
+        ],
+        [
+          48.684293180976596,
+          2.2240351218173706
+        ],
+        [
+          48.68427140897452,
+          2.22458366307579
+        ],
+        [
+          48.684297886010626,
+          2.2252996298250824
+        ],
+        [
+          48.684274411795755,
+          2.22566337430597
+        ],
+        [
+          48.6841913214678,
+          2.226200478395791
+        ],
+        [
+          48.68376726129543,
+          2.2268925334623444
+        ],
+        [
+          48.682530332446824,
+          2.228325980040872
+        ],
+        [
+          48.6821264602965,
+          2.2286333099149678
+        ],
+        [
+          48.68194771428125,
+          2.2286643464880918
+        ],
+        [
+          48.68155985619332,
+          2.2284314474385387
+        ],
+        [
+          48.681174839999976,
+          2.22766784
+        ],
+        [
+          48.68026035422368,
+          2.22657219962016
+        ],
+        [
+          48.67610160706708,
+          2.2261530352100354
+        ],
+        [
+          48.675685254491455,
+          2.226292907235402
+        ],
+        [
+          48.67562797598599,
+          2.226197134526963
+        ],
+        [
+          48.67547133833309,
+          2.226119039890102
+        ],
+        [
+          48.675285314709456,
+          2.2262588076205905
+        ],
+        [
+          48.67476071551182,
+          2.226231842599313
+        ],
+        [
+          48.67434574863973,
+          2.2259518871792965
+        ],
+        [
+          48.67316176933137,
+          2.2249103423031613
+        ],
+        [
+          48.67275068917692,
+          2.224617546043052
+        ],
+        [
+          48.67261837950223,
+          2.2244753038231058
+        ],
+        [
+          48.67247968167165,
+          2.2246410281930147
+        ],
+        [
+          48.67249040692933,
+          2.224783638798694
+        ],
+        [
+          48.672332512748554,
+          2.225176351820677
+        ],
+        [
+          48.67165032806501,
+          2.2264246895184057
+        ],
+        [
+          48.66894474654465,
+          2.2348368214205463
+        ],
+        [
+          48.66876064482121,
+          2.2357055285779177
+        ],
+        [
+          48.668620586045485,
+          2.236001907700956
+        ],
+        [
+          48.668528986828676,
+          2.2361233729342156
+        ],
+        [
+          48.668200372918825,
+          2.236202695518831
+        ],
+        [
+          48.66803745422975,
+          2.2362054110706393
+        ],
+        [
+          48.667397900518374,
+          2.236087684533943
+        ],
+        [
+          48.66386349249989,
+          2.2352457441233495
+        ],
+        [
+          48.663096713635284,
+          2.236691081869495
+        ],
+        [
+          48.66288625730663,
+          2.2372465194082745
+        ],
+        [
+          48.662774572745,
+          2.23730702931
+        ],
+        [
+          48.66256910404165,
+          2.237076327205141
+        ],
+        [
+          48.66181667086904,
+          2.236030988836059
+        ],
+        [
+          48.66146051,
+          2.23555379
+        ],
+        [
+          48.66102135422,
+          2.2350553862888
+        ],
+        [
+          48.660907316864,
+          2.2348427674463
+        ],
+        [
+          48.660887002224,
+          2.2351392262139
+        ],
+        [
+          48.66070092807443,
+          2.236459996398541
+        ],
+        [
+          48.66046336353771,
+          2.2363303196877915
+        ],
+        [
+          48.66005210835585,
+          2.2356915643585964
+        ],
+        [
+          48.65973239,
+          2.23475609
+        ],
+        [
+          48.65878602,
+          2.23522776
+        ]
+      ],
+      "representative_id": "2026-06-15_16-26-55__retour__route0",
+      "stats": {
+        "occurrences": 1,
+        "time_avg_min": 31.52,
+        "time_min_min": 31.52,
+        "time_max_min": 31.52,
+        "distance_avg_km": 19.07
+      },
+      "preview_png": "analysis/route_groups/group_07_preview.png",
+      "preview_html": "analysis/route_groups/group_07_preview.html",
+      "members": [
+        {
+          "id": "2026-06-15_16-26-55__retour__route0",
+          "run": "2026-06-15_16-26-55",
+          "trip": "retour",
+          "time_minutes": 31.52,
+          "distance_km": 19.07
+        }
+      ]
+    },
+    "group_08": {
+      "group_key": "group_08",
+      "user_name": "Retour christ de Saclay",
+      "direction": "retour",
+      "notes": "",
+      "representative_coords": [
+        [
+          48.74104441582053,
+          2.092714179124551
+        ],
+        [
+          48.74206991904457,
+          2.0933062784347993
+        ],
+        [
+          48.74043255405171,
+          2.0965547447831856
+        ],
+        [
+          48.74025995878152,
+          2.0965198476249154
+        ],
+        [
+          48.7400934625438,
+          2.096705765054186
+        ],
+        [
+          48.740063706462045,
+          2.0968319966121967
+        ],
+        [
+          48.73920033130977,
+          2.0974491004218128
+        ],
+        [
+          48.73658693446687,
+          2.096982338640609
+        ],
+        [
+          48.73533939710542,
+          2.0969311404329036
+        ],
+        [
+          48.73523080031378,
+          2.096979713844195
+        ],
+        [
+          48.7348676807871,
+          2.0972436689833143
+        ],
+        [
+          48.734479901857,
+          2.097652125921
+        ],
+        [
+          48.73367734472203,
+          2.0997207475430106
+        ],
+        [
+          48.73303890579663,
+          2.1017461302654006
+        ],
+        [
+          48.732870627352064,
+          2.102600723504979
+        ],
+        [
+          48.73286735724887,
+          2.1036352989686984
+        ],
+        [
+          48.73258716055521,
+          2.104736776371732
+        ],
+        [
+          48.73229788432778,
+          2.105924629627665
+        ],
+        [
+          48.73197246907862,
+          2.107789604351023
+        ],
+        [
+          48.73197768396419,
+          2.11079298
+        ],
+        [
+          48.729722521882245,
+          2.126369704006917
+        ],
+        [
+          48.72943811215648,
+          2.1270370575820468
+        ],
+        [
+          48.729152772222236,
+          2.1274734733633465
+        ],
+        [
+          48.72927951436813,
+          2.127908401735498
+        ],
+        [
+          48.72932143948191,
+          2.128754776268975
+        ],
+        [
+          48.7291084089986,
+          2.13073589138515
+        ],
+        [
+          48.7290176500334,
+          2.1317702890262358
+        ],
+        [
+          48.7290450028606,
+          2.137942959157943
+        ],
+        [
+          48.729081725763166,
+          2.1399254871264803
+        ],
+        [
+          48.72926193335153,
+          2.1435284989656562
+        ],
+        [
+          48.72947034652613,
+          2.144799898903095
+        ],
+        [
+          48.729492151101354,
+          2.144920400764476
+        ],
+        [
+          48.729659394687346,
+          2.1457982082188676
+        ],
+        [
+          48.730095923266006,
+          2.1483325762544467
+        ],
+        [
+          48.73032259362768,
+          2.1495817469780056
+        ],
+        [
+          48.730813162682246,
+          2.158727940011697
+        ],
+        [
+          48.73004293710279,
+          2.162326277757687
+        ],
+        [
+          48.72987527703762,
+          2.1630104746488126
+        ],
+        [
+          48.72961446227466,
+          2.1640748180836
+        ],
+        [
+          48.72942647681216,
+          2.1648432929900676
+        ],
+        [
+          48.729315076856714,
+          2.16534529140934
+        ],
+        [
+          48.72915363454158,
+          2.1660783842743494
+        ],
+        [
+          48.72867082493452,
+          2.1668891700859856
+        ],
+        [
+          48.728489268969106,
+          2.166786367771669
+        ],
+        [
+          48.7282777653082,
+          2.166943406548979
+        ],
+        [
+          48.728296723427874,
+          2.1674829169546683
+        ],
+        [
+          48.728534389839645,
+          2.1676037384809694
+        ],
+        [
+          48.72876231476918,
+          2.1672297574240234
+        ],
+        [
+          48.72917854031889,
+          2.1662807931970427
+        ],
+        [
+          48.72923091315962,
+          2.166067597438647
+        ],
+        [
+          48.7293905853831,
+          2.165343299859613
+        ],
+        [
+          48.72954111627977,
+          2.164719219023358
+        ],
+        [
+          48.73008172310268,
+          2.162903551475028
+        ],
+        [
+          48.730117883176476,
+          2.1627315175742834
+        ],
+        [
+          48.72989272864478,
+          2.1626197926599056
+        ],
+        [
+          48.729852962409176,
+          2.1627700547555064
+        ],
+        [
+          48.72980573617754,
+          2.162940330016903
+        ],
+        [
+          48.728680000855896,
+          2.1647244072061596
+        ],
+        [
+          48.72733943853301,
+          2.165373790329408
+        ],
+        [
+          48.72613226,
+          2.16586618
+        ],
+        [
+          48.7237811763267,
+          2.167145807577974
+        ],
+        [
+          48.72144424,
+          2.16845604
+        ],
+        [
+          48.71766199569942,
+          2.170706690755547
+        ],
+        [
+          48.716909735756914,
+          2.171350157929685
+        ],
+        [
+          48.715212441230946,
+          2.1735910257949818
+        ],
+        [
+          48.7121640626207,
+          2.1828927191316487
+        ],
+        [
+          48.70720916942983,
+          2.1908371233482344
+        ],
+        [
+          48.70296325397458,
+          2.193023976686477
+        ],
+        [
+          48.70075738133628,
+          2.1926445889549258
+        ],
+        [
+          48.69729503647716,
+          2.192217829122864
+        ],
+        [
+          48.69523768898233,
+          2.192400917411776
+        ],
+        [
+          48.68783495162151,
+          2.1904240907726304
+        ],
+        [
+          48.68277329449455,
+          2.189613224608509
+        ],
+        [
+          48.67493666987479,
+          2.193496755251974
+        ],
+        [
+          48.67362914225471,
+          2.1919166195174458
+        ],
+        [
+          48.673711805629914,
+          2.192027212728159
+        ],
+        [
+          48.67386089811495,
+          2.193404969183899
+        ],
+        [
+          48.6738890194777,
+          2.1939153598251617
+        ],
+        [
+          48.67383911053783,
+          2.1945396638155295
+        ],
+        [
+          48.67381257568934,
+          2.194564401592991
+        ],
+        [
+          48.67269055080429,
+          2.1944794835377084
+        ],
+        [
+          48.67171173107601,
+          2.1947917532057772
+        ],
+        [
+          48.67029145,
+          2.19549527
+        ],
+        [
+          48.6701132,
+          2.19558148
+        ],
+        [
+          48.66981279407926,
+          2.1957343553054254
+        ],
+        [
+          48.66937716368255,
+          2.195956044156958
+        ],
+        [
+          48.66856745160063,
+          2.1963680951174833
+        ],
+        [
+          48.66772913100158,
+          2.19677817561802
+        ],
+        [
+          48.667668282733366,
+          2.196816213959757
+        ],
+        [
+          48.66763815125843,
+          2.196991353956861
+        ],
+        [
+          48.667678004937756,
+          2.1970681476079186
+        ],
+        [
+          48.667748593194744,
+          2.19735761731925
+        ],
+        [
+          48.66769298969046,
+          2.19826768942186
+        ],
+        [
+          48.667560714190245,
+          2.199843747492151
+        ],
+        [
+          48.666939669576436,
+          2.205115407705479
+        ],
+        [
+          48.66621753582057,
+          2.2085267290824704
+        ],
+        [
+          48.6651847309813,
+          2.2118869398158605
+        ],
+        [
+          48.66484521771217,
+          2.213014252963399
+        ],
+        [
+          48.66466869982186,
+          2.2135771440967487
+        ],
+        [
+          48.664179493359484,
+          2.2144339855505817
+        ],
+        [
+          48.663959127366006,
+          2.2145324775492843
+        ],
+        [
+          48.6638187062395,
+          2.2147763809677175
+        ],
+        [
+          48.66386465618175,
+          2.2154046076864176
+        ],
+        [
+          48.66377246900895,
+          2.2162139819664244
+        ],
+        [
+          48.663440571286465,
+          2.216851395793267
+        ],
+        [
+          48.662706720812174,
+          2.2183967909771822
+        ],
+        [
+          48.6609753207931,
+          2.2244004543791096
+        ],
+        [
+          48.66084786622538,
+          2.2247796810748577
+        ],
+        [
+          48.66104396744688,
+          2.2247231505964478
+        ],
+        [
+          48.66152931913008,
+          2.226986072516958
+        ],
+        [
+          48.66174047513674,
+          2.228314641401672
+        ],
+        [
+          48.66161622735748,
+          2.229578018282757
+        ],
+        [
+          48.661287793632994,
+          2.230429142713761
+        ],
+        [
+          48.66120076394701,
+          2.230850209940567
+        ],
+        [
+          48.661099237935154,
+          2.2320729876721193
+        ],
+        [
+          48.66107692794378,
+          2.23229979441803
+        ],
+        [
+          48.661061830624575,
+          2.2324732393028266
+        ],
+        [
+          48.66089511841905,
+          2.234323738880662
+        ],
+        [
+          48.660882434935104,
+          2.2345525962258046
+        ],
+        [
+          48.660907316864,
+          2.2348427674463
+        ],
+        [
+          48.660887002224,
+          2.2351392262139
+        ],
+        [
+          48.66070092807443,
+          2.236459996398541
+        ],
+        [
+          48.66046336353771,
+          2.2363303196877915
+        ],
+        [
+          48.66005210835585,
+          2.2356915643585964
+        ],
+        [
+          48.65973239,
+          2.23475609
+        ],
+        [
+          48.65878602,
+          2.23522776
+        ]
+      ],
+      "representative_id": "2026-06-19_13-33-29__retour__route0",
+      "stats": {
+        "occurrences": 1,
+        "time_avg_min": 26.25,
+        "time_min_min": 26.25,
+        "time_max_min": 26.25,
+        "distance_avg_km": 19.03
+      },
+      "preview_png": "analysis/route_groups/group_08_preview.png",
+      "preview_html": "analysis/route_groups/group_08_preview.html",
+      "members": [
+        {
+          "id": "2026-06-19_13-33-29__retour__route0",
+          "run": "2026-06-19_13-33-29",
+          "trip": "retour",
+          "time_minutes": 26.25,
+          "distance_km": 19.03
+        }
+      ]
+    },
+    "group_09": {
+      "group_key": "group_09",
+      "user_name": "Retour Christ de Saclay et sortie a Orsay",
+      "direction": "retour",
+      "notes": "",
+      "representative_coords": [
+        [
+          48.74104441582053,
+          2.092714179124551
+        ],
+        [
+          48.74206991904457,
+          2.0933062784347993
+        ],
+        [
+          48.74043255405171,
+          2.0965547447831856
+        ],
+        [
+          48.74025995878152,
+          2.0965198476249154
+        ],
+        [
+          48.7400934625438,
+          2.096705765054186
+        ],
+        [
+          48.740063706462045,
+          2.0968319966121967
+        ],
+        [
+          48.73920033130977,
+          2.0974491004218128
+        ],
+        [
+          48.73658693446687,
+          2.096982338640609
+        ],
+        [
+          48.73533939710542,
+          2.0969311404329036
+        ],
+        [
+          48.73523080031378,
+          2.096979713844195
+        ],
+        [
+          48.7348676807871,
+          2.0972436689833143
+        ],
+        [
+          48.734479901857,
+          2.097652125921
+        ],
+        [
+          48.73367734472203,
+          2.0997207475430106
+        ],
+        [
+          48.73303890579663,
+          2.1017461302654006
+        ],
+        [
+          48.732870627352064,
+          2.102600723504979
+        ],
+        [
+          48.73286735724887,
+          2.1036352989686984
+        ],
+        [
+          48.73258716055521,
+          2.104736776371732
+        ],
+        [
+          48.73229788432778,
+          2.105924629627665
+        ],
+        [
+          48.73197246907862,
+          2.107789604351023
+        ],
+        [
+          48.73197768396419,
+          2.11079298
+        ],
+        [
+          48.729722521882245,
+          2.126369704006917
+        ],
+        [
+          48.72943811215648,
+          2.1270370575820468
+        ],
+        [
+          48.729152772222236,
+          2.1274734733633465
+        ],
+        [
+          48.72927951436813,
+          2.127908401735498
+        ],
+        [
+          48.72932143948191,
+          2.128754776268975
+        ],
+        [
+          48.7291084089986,
+          2.13073589138515
+        ],
+        [
+          48.7290176500334,
+          2.1317702890262358
+        ],
+        [
+          48.7290450028606,
+          2.137942959157943
+        ],
+        [
+          48.729081725763166,
+          2.1399254871264803
+        ],
+        [
+          48.72926193335153,
+          2.1435284989656562
+        ],
+        [
+          48.72947034652613,
+          2.144799898903095
+        ],
+        [
+          48.729492151101354,
+          2.144920400764476
+        ],
+        [
+          48.729659394687346,
+          2.1457982082188676
+        ],
+        [
+          48.730095923266006,
+          2.1483325762544467
+        ],
+        [
+          48.73032259362768,
+          2.1495817469780056
+        ],
+        [
+          48.730813162682246,
+          2.158727940011697
+        ],
+        [
+          48.73004293710279,
+          2.162326277757687
+        ],
+        [
+          48.72987527703762,
+          2.1630104746488126
+        ],
+        [
+          48.72961446227466,
+          2.1640748180836
+        ],
+        [
+          48.72942647681216,
+          2.1648432929900676
+        ],
+        [
+          48.729315076856714,
+          2.16534529140934
+        ],
+        [
+          48.72915363454158,
+          2.1660783842743494
+        ],
+        [
+          48.72867082493452,
+          2.1668891700859856
+        ],
+        [
+          48.728489268969106,
+          2.166786367771669
+        ],
+        [
+          48.7282777653082,
+          2.166943406548979
+        ],
+        [
+          48.728296723427874,
+          2.1674829169546683
+        ],
+        [
+          48.728534389839645,
+          2.1676037384809694
+        ],
+        [
+          48.72876231476918,
+          2.1672297574240234
+        ],
+        [
+          48.72917854031889,
+          2.1662807931970427
+        ],
+        [
+          48.72923091315962,
+          2.166067597438647
+        ],
+        [
+          48.7293905853831,
+          2.165343299859613
+        ],
+        [
+          48.72954111627977,
+          2.164719219023358
+        ],
+        [
+          48.73008172310268,
+          2.162903551475028
+        ],
+        [
+          48.730117883176476,
+          2.1627315175742834
+        ],
+        [
+          48.72989272864478,
+          2.1626197926599056
+        ],
+        [
+          48.729852962409176,
+          2.1627700547555064
+        ],
+        [
+          48.72980573617754,
+          2.162940330016903
+        ],
+        [
+          48.728680000855896,
+          2.1647244072061596
+        ],
+        [
+          48.72733943853301,
+          2.165373790329408
+        ],
+        [
+          48.72613226,
+          2.16586618
+        ],
+        [
+          48.7237811763267,
+          2.167145807577974
+        ],
+        [
+          48.72144424,
+          2.16845604
+        ],
+        [
+          48.71766199569942,
+          2.170706690755547
+        ],
+        [
+          48.716909735756914,
+          2.171350157929685
+        ],
+        [
+          48.715212441230946,
+          2.1735910257949818
+        ],
+        [
+          48.7121640626207,
+          2.1828927191316487
+        ],
+        [
+          48.70720916942983,
+          2.1908371233482344
+        ],
+        [
+          48.70296325397458,
+          2.193023976686477
+        ],
+        [
+          48.702034,
+          2.192618
+        ],
+        [
+          48.700488392288996,
+          2.1916785884789
+        ],
+        [
+          48.700425886603,
+          2.1916308128271
+        ],
+        [
+          48.700312974299045,
+          2.1882030048176766
+        ],
+        [
+          48.69902375,
+          2.1878723
+        ],
+        [
+          48.698958798698,
+          2.1878394699661
+        ],
+        [
+          48.698624107171185,
+          2.1876294016835036
+        ],
+        [
+          48.69836759627694,
+          2.187326196546809
+        ],
+        [
+          48.69801390332585,
+          2.186787124299163
+        ],
+        [
+          48.69754571858545,
+          2.1860581822349454
+        ],
+        [
+          48.696693910252,
+          2.1847734687871
+        ],
+        [
+          48.696595361277,
+          2.184557027474
+        ],
+        [
+          48.696522094555,
+          2.1846245210548
+        ],
+        [
+          48.69419799999999,
+          2.182497
+        ],
+        [
+          48.692553009395404,
+          2.181119501590985
+        ],
+        [
+          48.691789022358,
+          2.1811195015907
+        ],
+        [
+          48.68992215262382,
+          2.1814316319465505
+        ],
+        [
+          48.68859702781815,
+          2.1819554957247544
+        ],
+        [
+          48.68812834,
+          2.18319035
+        ],
+        [
+          48.6873598,
+          2.1843225
+        ],
+        [
+          48.68703492,
+          2.18459874
+        ],
+        [
+          48.68664186999343,
+          2.1855083043700856
+        ],
+        [
+          48.68652404,
+          2.18614818
+        ],
+        [
+          48.6864918,
+          2.18630394
+        ],
+        [
+          48.68623419,
+          2.1872328
+        ],
+        [
+          48.68595177708576,
+          2.1875142166051633
+        ],
+        [
+          48.68532149378867,
+          2.1878952772807474
+        ],
+        [
+          48.68494746489819,
+          2.188060492651491
+        ],
+        [
+          48.68478422342866,
+          2.1881325989960447
+        ],
+        [
+          48.68456104800365,
+          2.1882500139268504
+        ],
+        [
+          48.68441323998864,
+          2.1883310824631454
+        ],
+        [
+          48.68417790420755,
+          2.188449282502481
+        ],
+        [
+          48.68359954119309,
+          2.1887698471546564
+        ],
+        [
+          48.681798570368,
+          2.1896467059851
+        ],
+        [
+          48.678675482271,
+          2.1912347972389
+        ],
+        [
+          48.67680769000302,
+          2.1922295385636144
+        ],
+        [
+          48.67613974905732,
+          2.192428224940337
+        ],
+        [
+          48.675871426478,
+          2.1921908494425
+        ],
+        [
+          48.675549083272,
+          2.1922780212354
+        ],
+        [
+          48.67542258013864,
+          2.193901809249945
+        ],
+        [
+          48.67407070198052,
+          2.1949237299169937
+        ],
+        [
+          48.674093553842866,
+          2.1948342171513464
+        ],
+        [
+          48.67403385103526,
+          2.194576146841742
+        ],
+        [
+          48.67383911053783,
+          2.1945396638155295
+        ],
+        [
+          48.67381257568934,
+          2.194564401592991
+        ],
+        [
+          48.67269055080429,
+          2.1944794835377084
+        ],
+        [
+          48.67171173107601,
+          2.1947917532057772
+        ],
+        [
+          48.67029145,
+          2.19549527
+        ],
+        [
+          48.6701132,
+          2.19558148
+        ],
+        [
+          48.66981279407926,
+          2.1957343553054254
+        ],
+        [
+          48.66937716368255,
+          2.195956044156958
+        ],
+        [
+          48.66856745160063,
+          2.1963680951174833
+        ],
+        [
+          48.66772913100158,
+          2.19677817561802
+        ],
+        [
+          48.667668282733366,
+          2.196816213959757
+        ],
+        [
+          48.66763815125843,
+          2.196991353956861
+        ],
+        [
+          48.667678004937756,
+          2.1970681476079186
+        ],
+        [
+          48.667748593194744,
+          2.19735761731925
+        ],
+        [
+          48.66769298969046,
+          2.19826768942186
+        ],
+        [
+          48.667560714190245,
+          2.199843747492151
+        ],
+        [
+          48.666939669576436,
+          2.205115407705479
+        ],
+        [
+          48.66621753582057,
+          2.2085267290824704
+        ],
+        [
+          48.6651847309813,
+          2.2118869398158605
+        ],
+        [
+          48.66484521771217,
+          2.213014252963399
+        ],
+        [
+          48.66466869982186,
+          2.2135771440967487
+        ],
+        [
+          48.664179493359484,
+          2.2144339855505817
+        ],
+        [
+          48.663959127366006,
+          2.2145324775492843
+        ],
+        [
+          48.6638187062395,
+          2.2147763809677175
+        ],
+        [
+          48.66386465618175,
+          2.2154046076864176
+        ],
+        [
+          48.66377246900895,
+          2.2162139819664244
+        ],
+        [
+          48.663440571286465,
+          2.216851395793267
+        ],
+        [
+          48.662706720812174,
+          2.2183967909771822
+        ],
+        [
+          48.6609753207931,
+          2.2244004543791096
+        ],
+        [
+          48.66084786622538,
+          2.2247796810748577
+        ],
+        [
+          48.66104396744688,
+          2.2247231505964478
+        ],
+        [
+          48.66152931913008,
+          2.226986072516958
+        ],
+        [
+          48.66174047513674,
+          2.228314641401672
+        ],
+        [
+          48.66161622735748,
+          2.229578018282757
+        ],
+        [
+          48.661287793632994,
+          2.230429142713761
+        ],
+        [
+          48.66120076394701,
+          2.230850209940567
+        ],
+        [
+          48.661099237935154,
+          2.2320729876721193
+        ],
+        [
+          48.66107692794378,
+          2.23229979441803
+        ],
+        [
+          48.661061830624575,
+          2.2324732393028266
+        ],
+        [
+          48.66089511841905,
+          2.234323738880662
+        ],
+        [
+          48.660882434935104,
+          2.2345525962258046
+        ],
+        [
+          48.660907316864,
+          2.2348427674463
+        ],
+        [
+          48.660887002224,
+          2.2351392262139
+        ],
+        [
+          48.66070092807443,
+          2.236459996398541
+        ],
+        [
+          48.66046336353771,
+          2.2363303196877915
+        ],
+        [
+          48.66005210835585,
+          2.2356915643585964
+        ],
+        [
+          48.65973239,
+          2.23475609
+        ],
+        [
+          48.65878602,
+          2.23522776
+        ]
+      ],
+      "representative_id": "2026-06-19_13-33-29__retour__route2",
+      "stats": {
+        "occurrences": 1,
+        "time_avg_min": 32.32,
+        "time_min_min": 32.32,
+        "time_max_min": 32.32,
+        "distance_avg_km": 19.33
+      },
+      "preview_png": "analysis/route_groups/group_09_preview.png",
+      "preview_html": "analysis/route_groups/group_09_preview.html",
+      "members": [
+        {
+          "id": "2026-06-19_13-33-29__retour__route2",
+          "run": "2026-06-19_13-33-29",
+          "trip": "retour",
+          "time_minutes": 32.32,
+          "distance_km": 19.33
         }
       ]
     }
