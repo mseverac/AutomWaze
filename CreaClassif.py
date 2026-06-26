@@ -29,10 +29,18 @@ def load_all_routes(data_dir):
         for filename in sorted(os.listdir(run_path)):
             if not filename.endswith("summary.json"):
                 continue
-            trip_name = filename.replace("summary.json", "").strip("_")
-            filepath = os.path.join(run_path, filename)
+            if filename == "run_summary.json":   # fichier global — ignorer
+                continue
+
+            trip_name = filename.replace("_summary.json", "")
+            filepath  = os.path.join(run_path, filename)
             with open(filepath, "r", encoding="utf-8") as f:
                 routes = json.load(f)
+
+            if not isinstance(routes, list):     # sécurité si format inattendu
+                print(f"  [WARN] {filepath} n'est pas une liste, ignoré.")
+                continue
+
             for r in routes:
                 flat.append({
                     "id":           f"{run_folder}__{trip_name}__route{r['index']}",

@@ -17,16 +17,36 @@ logger.addHandler(handler)
 
 ADDRESS_A = '12 rue albert camus nozay 91620, France'
 ADDRESS_B = "48.74138311701822, 2.0928744250745597"
+ADDRESS_B2 = 'Rond point du bois des roches chateaufort 78117, France' 
+
 REGION = 'EU'
 NTFY_URL = "https://ntfy.sh/AutomWazeNozaySafran_notification"
 DICT_PATH = "analysis/route_dictionary.json"
 HAUSDORFF_THRESHOLD = 0.002  # 50m
 
-TRIPS = [
+"""TRIPS = [
     ("aller",  ADDRESS_A, ADDRESS_B),
     ("retour", ADDRESS_B, ADDRESS_A),
 ]
+"""
 
+# Remplacer les imports en haut
+import pytz  # pip install pytz  (souvent déjà installé avec pandas)
+
+# Remplacer la définition de TRIPS par une fonction dynamique
+def get_trips():
+    paris_tz = pytz.timezone("Europe/Paris")
+    hour = datetime.now(paris_tz).hour
+    if hour < 12:
+        return [
+            ("aller_Est",  ADDRESS_A, ADDRESS_B),
+            ("aller_Sud",  ADDRESS_A, ADDRESS_B2),
+        ]
+    else:
+        return [
+            ("retour_Est", ADDRESS_B,  ADDRESS_A),
+            ("retour_Sud", ADDRESS_B2, ADDRESS_A),
+        ]
 
 # ─────────────────────────────────────────────
 # HAUSDORFF
@@ -237,41 +257,70 @@ def main():
         route_dictionary = None
         print("Aucun dictionnaire trouvé — classification désactivée.")
 
-    for trip_name, from_addr, to_addr in TRIPS:
+def main():
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    out_dir   = os.path.join("data", timestamp)
+    os.makedirs(out_dir, exist_ok=True)
+
+    if os.path.exists(DICT_PATH):
+        with open(DICT_PATH, "r", encoding="utf-8") as f:
+            route_dictionary = json.load(f)
+        print(f"Dictionnaire chargé : {len(route_dictionary['routes'])} groupes.")
+    else:
+        route_dictionary = None
+        print("Aucun dictionnaire trouvé — classification désactivée.")
+
+    trips = get_trips()
+
+    # Calcul de tous les trajets candidats (B et B2)
+    candidates = []
+    for trip_name, from_addr, to_addr in trips:
         print(f"\n--- Calcul du trajet : {trip_name} ---")
         summary = process_trip(trip_name, from_addr, to_addr, out_dir)
-
         if not summary:
             continue
-
-        # Meilleure route = la plus rapide
         best = min(summary, key=lambda x: x["time_minutes"])
-        coords = best["coords"]
+        candidates.append((trip_name, best))
 
-        # Classification
-        if route_dictionary:
-            group_key, user_name = classify_route(coords, route_dictionary)
-            route_label = user_name if user_name else "Attention itineraire inconnu"
-        else:
-            group_key  = None
-            route_label = "Classification non disponible"
+    if not candidates:
+        print("Aucun trajet calculé.")
+        return
 
-        # PNG de la meilleure route
-        png_path  = os.path.join(out_dir, f"{trip_name}_best.png")
-        html_path = os.path.join(out_dir, f"{trip_name}_best.html")
-        if coords:
-            make_map_and_capture(coords, png_path, html_path)
+    # Meilleur trajet global = entrée la plus rapide
+    best_trip_name, best = min(candidates, key=lambda c: c[1]["time_minutes"])
+    coords = best["coords"]
 
-        # Notification
-        title   = f"Waze {trip_name.capitalize()}  {timestamp}"
-        message = (
-            f"Itineraire : {route_label}\n"
-            f"Temps      : {best['time_minutes']} min\n"
-            f"Distance   : {best['distance_km']} km\n"
-            #f"Carte      : data/{timestamp}/{trip_name}_best.html"
-        )
-        print(message)
-        send_notification(title, message, png_path)
+    print(f"\n→ Meilleur trajet : {best_trip_name} ({best['time_minutes']} min)")
+
+    # Classification
+    if route_dictionary:
+        group_key, user_name = classify_route(coords, route_dictionary)
+        route_label = user_name if user_name else "Attention itineraire inconnu"
+    else:
+        route_label = "Classification non disponible"
+
+    # PNG
+    png_path  = os.path.join(out_dir, f"{best_trip_name}_best.png")
+    html_path = os.path.join(out_dir, f"{best_trip_name}_best.html")
+    if coords:
+        make_map_and_capture(coords, png_path, html_path)
+
+
+    # Libellé de l'entrée dans le message
+    if "Sud" in best_trip_name:
+        entree_label = "Entree Sud"
+    else:
+        entree_label = "Entree Est"
+
+    title   = f"Waze {best_trip_name.capitalize()}  {timestamp}"
+    message = (
+        f"Entree      : {entree_label}\n"
+        f"Itineraire  : {route_label}\n"
+        f"Temps       : {best['time_minutes']} min\n"
+        f"Distance    : {best['distance_km']} km\n"
+    )
+    print(message)
+    send_notification(title, message, png_path)
 
     print(f"\nDonnées enregistrées dans {out_dir}")
 
